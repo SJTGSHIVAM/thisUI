@@ -1,0 +1,53 @@
+/*=============================================
+=              Typography                    =
+=============================================*/
+
+/**
+ * This file defines the default font sizes to be used for spacing. The defaults come
+ * from the palette defined in variables.css.
+ */
+
+/*=============================================
+ =            navbar            =
+ =============================================*/
+
+:root {
+  --nav-padding-spacing-none: var(
+    --tui-nav-padding-spacing-none,
+    var(--spacing-none)
+  );
+  --nav-padding-spacing-xxxs: var(
+    --tui-nav-padding-spacing-xxxs,
+    var(--spacing-xxxs)
+  );
+  --nav-padding-spacing-xxs: var(
+    --tui-nav-padding-spacing-xxs,
+    var(--spacing-xxs)
+  );
+  --nav-padding-spacing-xs: var(
+    --tui-nav-padding-spacing-xs,
+    var(--spacing-xs)
+  );
+  --nav-padding-spacing-sm: var(
+    --tui-nav-padding-spacing-sm,
+    var(--spacing-sm)
+  );
+  --nav-padding-spacing-md: var--tui-nav-padding-spacing-md, var(--spacing-md);
+  --nav-padding-spacing-lg: var(
+    --tui-nav-padding-spacing-lg,
+    var(--spacing-lg)
+  );
+  --nav-padding-spacing-xl: var(
+    --tui-nav-padding-spacing-xl,
+    var(--spacing-xl)
+  );
+  --nav-padding-spacing-xxl: var(
+    --tui-nav-padding-spacing-xxl,
+    var(--spacing-xxl)
+  );
+  --nav-padding-spacing-xxxl: var(
+    --tui-nav-padding-spacing-xxxl,
+    var(--spacing-xxxl)
+  );
+}
+/*=====  End of navbar  ======*/

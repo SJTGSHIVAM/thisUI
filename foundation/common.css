@@ -1,0 +1,38 @@
+/*=============================================
+=              Common                    =
+=============================================*/
+
+/**
+ * This file defines the default for all common values to be used. The defaults come
+ * from the palette defined in variables.css.
+ */
+:root {
+  /*=============================================
+=            Breakpoints                      =
+=============================================*/
+
+  --media-breakpoints-xs: var(
+    --tui-media-breakpoints-xs,
+    var(--breakpoints-xs)
+  );
+  --media-breakpoints-sm: var(
+    --tui-media-breakpoints-sm,
+    var(--breakpoints-sm)
+  );
+  --media-breakpoints-md: var(
+    --tui-media-breakpoints-md,
+    var(--breakpoints-md)
+  );
+  --media-breakpoints-lg: var(
+    --tui-media-breakpoints-lg,
+    var(--breakpoints-lg)
+  );
+  --media-breakpoints-xl: var(
+    --tui-media-breakpoints-xl,
+    var(--breakpoints-xl)
+  );
+  --media-breakpoints-2xl: var(
+    --tui-media-breakpoints-2xl,
+    var(--breakpoints-2xl)
+  );
+}

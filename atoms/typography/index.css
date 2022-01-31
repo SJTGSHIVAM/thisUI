@@ -1,0 +1,56 @@
+@import "../../foundation/all.css";
+.tui__small--text {
+  color: var(--utility-small-text);
+  font-size: var(--text-font-size-sm);
+  font-weight: var(--text-line-height-sm);
+}
+.tui__h-1 {
+  font-family: var(--h-1-font-family);
+  font-size: var(--h-1-font-size);
+  line-height: var(--text-line-height-xl);
+}
+.tui__h-2 {
+  font-family: var(--h-2-font-family);
+  font-size: var(--h-2-font-size);
+  line-height: var(--text-line-height-lg);
+}
+.tui__h-3 {
+  font-family: var(--h-3-font-family);
+  font-size: var(--h-3-font-size);
+  line-height: var(--text-line-height-base);
+}
+.tui__h-4 {
+  font-family: var(--h-4-font-family);
+  font-size: var(--h-4-font-size);
+  line-height: var(--text-line-height-sm);
+}
+.tui__h-5 {
+  font-family: var(--h-5-font-family);
+  font-size: var(--h-5-font-size);
+  line-height: var(--text-line-height-xs);
+}
+.tui__h-6 {
+  font-family: var(--h-6-font-family);
+  font-size: var(--h-6-font-size);
+  line-height: var(--text-line-height-xs);
+}
+.tui__text-xl {
+  font-size: var(--text-font-size-xl);
+  line-height: var(--text-line-height-xl);
+}
+.tui__text-lg {
+  font-size: var(--text-font-size-lg);
+  line-height: var(--text-line-height-lg);
+}
+.tui__text-base {
+  font-size: var(--text-font-size-base);
+  line-height: var(--text-line-height-base);
+}
+.tui__text-sm {
+  font-size: var(--text-font-size-sm);
+  line-height: var(--text-line-height-sm);
+}
+.tui__text-xs {
+  font-size: var(--text-font-size-xs);
+  line-height: var(--text-line-height-xs);
+}

@@ -1,0 +1,85 @@
+/*=============================================
+=              Typography                    =
+=============================================*/
+
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in variables.css.
+ */
+:root {
+  /*=============================================
+=            Body font family                  =
+=============================================*/
+  --body-font-family: var(--tui-body-font-family, var(--raleway));
+
+  /*=============================================
+=            Body font sizes                  =
+=============================================*/
+
+  --body-font-size: var(--tui-body-font-size, var(--fs-sm));
+  --body-font-weight: var(--tui-body-font-weight, var(--fw-normal));
+  /*=============================================
+=            Heading font sizes               =
+=============================================*/
+
+  --h-1-font-family: var(--tui-h-1-font-family, var(--playfair));
+
+  /*=============================================
+=            Heading font sizes               =
+=============================================*/
+
+  --h-1-font-size: var(--tui-h1-font-size, var(--h-1));
+  --h-2-font-size: var(--tui-h2-font-size, var(--h-2));
+  --h-3-font-size: var(--tui-h3-font-size, var(--h-3));
+  --h-4-font-size: var(--tui-h4-font-size, var(--h-4));
+  --h-5-font-size: var(--tui-h5-font-size, var(--h-5));
+  --h-6-font-size: var(--tui-h6-font-size, var(--h-6));
+
+  /*=============================================
+=            Head font weights                =
+=============================================*/
+
+  --h-1-font-weight: var(--tui-h1-text-weight, var(--fw-black));
+  --h-2-font-weight: var(--tui-h2-text-weight, var(--fw-semibold));
+  --h-3-font-weight: var(--tui-h3-text-weight, var(--fw-bold));
+  --h-4-font-weight: var(--tui-h4-text-weight, var(--fw-medium));
+  --h-5-font-weight: var(--tui-h5-text-weight, var(--fw-normal));
+  --h-6-font-weight: var(--tui-h6-text-weight, var(--fw-light));
+
+  /*=============================================
+=            Text font Sizes               =
+=============================================*/
+  --text-font-size-xs: var(--tui-text-font-size-xs, var(--fs-xs));
+  --text-font-size-sm: var(--tui-text-font-size-sm, var(--fs-sm));
+  --text-font-size-base: var(--tui-text-font-size-base, var(--fs-base));
+  --text-font-size-lg: var(--tui-text-font-size-lg, var(--fs-lg));
+  --text-font-size-xl: var(--tui-text-font-size-xl, var(--fs-xl));
+
+  /*=============================================
+=             Text font weights                =
+=============================================*/
+
+  --text-font-weight-black: var(--tui-text-font-weight-black, var(--fw-black));
+  --text-font-weight-semibold: var(
+    --tui-text-font-weight-semibold,
+    var(--fw-semibold)
+  );
+  --text-font-weight-bold: var(--tui-text-font-weight-bold, var(--fw-bold));
+  --text-font-weight-medium: var(
+    --tui-text-font-weight-medium,
+    var(--fw-medium)
+  );
+  --text-font-weight-normal: var(
+    --tui-text-font-weight-normal,
+    var(--fw-normal)
+  );
+  --text-font-weight-light: var(--tui-text-font-weight-light, var(--fw-light));
+  /*=============================================
+=             text Line height                =
+=============================================*/
+  --text-line-height-xs: var(--tui-text-line-height-xs, var(--lh-xs));
+  --text-line-height-sm: var(--tui-text-line-height-sm, var(--lh-sm));
+  --text-line-height-base: var(--tui-text-line-height-base, var(--lh-base));
+  --text-line-height-lg: var(--tui-text-line-height-lg, var(--lh-lg));
+  --text-line-height-xl: var(--tui-text-line-height-xl, var(--lh-xl));
+}

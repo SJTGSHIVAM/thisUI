@@ -1,0 +1,5 @@
+@import "./atoms/index.css";
+
+.tuid__nav--top {
+  padding: var(--nav-padding-spacing-xs);
+}
