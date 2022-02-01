@@ -54,3 +54,16 @@
   font-size: var(--text-font-size-xs);
   line-height: var(--text-line-height-xs);
 }
+
+.tui__b-1 {
+  font-weight: var(--b-1);
+}
+.tui__b-2 {
+  font-weight: var(--b-2);
+}
+.tui__b-3 {
+  font-weight: var(--b-3);
+}
+.tui__b-4 {
+  font-weight: var(--b-4);
+}

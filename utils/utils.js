@@ -6,6 +6,7 @@ export function createNode({
   innerHTML,
   href,
   src,
+  onClick,
   children = [],
 }) {
   let createdNode = document.createElement(element);
@@ -18,5 +19,6 @@ export function createNode({
   children.forEach((node) => {
     createdNode.appendChild(node);
   });
+  if (onClick) createdNode.addEventListener("click", onClick);
   return createdNode;
 }

@@ -1,0 +1,31 @@
+.tui__flex-row-pack {
+  display: flex;
+  max-width: max-content;
+  align-items: baseline;
+}
+
+.tui__flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tui__dis-none {
+  display: none;
+}
+.tui__pos-abs {
+  position: absolute;
+}
+.tui__pos-rel {
+  position: relative;
+}
+.tui__flex-col-justify-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tui__invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.tui__invisible-scrollbar {
+  scrollbar-width: none;
+}

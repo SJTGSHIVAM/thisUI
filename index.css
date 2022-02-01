@@ -1,5 +1,78 @@
 @import "./atoms/index.css";
-
-.tuid__nav--top {
-  padding: var(--nav-padding-spacing-xs);
+@import "./utils/utils.css";
+.tuid__head {
+  grid-area: nav;
 }
+.tuid__nav--top {
+  display: grid;
+  height: 100%;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: var(--nav-bg-color);
+  padding: var(--nav-padding-spacing-md);
+}
+.tuid__nav--menu {
+  height: var(--h-2-font-size);
+  width: var(--h-2-font-size);
+}
+.tuid__drawer {
+  background-color: var(--body-bg-color);
+  border-right: var(--border-width-xs) solid var(--primary-col);
+  grid-row: lside;
+  grid-column-start: lside;
+  grid-column-end: lside-con;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 1;
+}
+.tuid__main {
+  grid-row: lside;
+  grid-column-start: lside-con;
+  grid-column-end: rside-con;
+  overflow-y: scroll;
+
+  /* grid-area: con; */
+}
+/* .tuid__main div {
+  height: 500px;
+} */
+.tuid__foot {
+  grid-area: foot;
+  background-color: black;
+}
+
+.tuid__drawer--li {
+  padding: var(--nav-padding-spacing-md);
+}
+/*=============================================
+=            usage layout            =
+=============================================*/
+
+body {
+  min-height: 100vh;
+  display: grid;
+  row-gap: var(--nav-padding-spacing-md);
+  grid-template-columns: repeat(12, minmax(8%, 1fr));
+  grid-template-rows: max-content 1fr minmax(60px, max-content);
+  grid-template-areas:
+    "nav nav nav nav nav nav nav nav nav nav nav nav"
+    "lside lside lside-con lside-con lside-con lside-con con con con rside-con rside rside"
+    "foot foot foot foot foot foot foot foot foot foot foot foot";
+}
+@media screen and (min-width: 700px) {
+  body {
+    grid-template-areas:
+      "nav nav nav nav nav nav nav nav nav nav nav nav"
+      "lside lside . con con con con con con . rside rside"
+      "foot foot foot foot foot foot foot foot foot foot foot foot";
+  }
+  .tuid__main {
+    grid-area: con;
+  }
+  .tuid__drawer {
+    grid-area: lside;
+    border: none;
+  }
+}
+/*=====  End of usage layout  ======*/

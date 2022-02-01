@@ -12,33 +12,49 @@
 =            Global text colors               =
 =============================================*/
 :root {
-  --body-text-color: var(--tui-body-text-color,var(--dark))
+  --body-text-color: var(--tui-body-text-color, var(--dark));
 
-
-  --body-bg-color: var(--tui-body-bg-color,var( --white)) 
+  --body-bg-color: var(--tui-body-bg-color, var(--white));
 
   /*=============================================
 =                 Buttons                     =
 =============================================*/
-  --btn-primary-color: var(--tui-btn-primary-color,var( --white));
-  --btn-primary-bg: var(--tui-btn-primary-bg,var( --green));
-  --btn-primary-bg-hover: var(--tui-btn-primary-bg-hover,var(--green-light));
+  --btn-primary-color: var(--tui-btn-primary-color, var(--white));
+  --btn-primary-bg: var(--tui-btn-primary-bg, var(--primary-col));
+  --btn-primary-bg-hover: var(
+    --tui-btn-primary-bg-hover,
+    var(--primary-col-light)
+  );
 
   /*=============================================
 =                 Forms                       =
 =============================================*/
-  --form-border-color: var(--tui-form-border-color,var(--white-dark));
-  --form-bg-color: var(--tui-form-bg-color,var(--white));
-  --form-bg-option-selected: var(--tui-form-bg-option-selected,var(--green));
-  --form-color-option-selected: var(--tui-form-color-option-selected,var(--white));
-  --form-bg-color-hover: var(--tui-form-bg-color-hover,var( --white-dark));
-  --form-color: var(--tui-form-color,var( --dark));
-  --form-bg: var(--tui-form-bg,var( --white));
-  --form-error-color: var(--tui-form-error-color,var(--red));
-  --form-error-border: var(--tui-form-error-border,var(--red));
-  --form-border-focus-color: var(--tui-form-border-focus-color,var(--green));
+  --form-border-color: var(--tui-form-border-color, var(--white-dark));
+  --form-bg-color: var(--tui-form-bg-color, var(--white));
+  --form-bg-option-selected: var(
+    --tui-form-bg-option-selected,
+    var(--primary-col)
+  );
+  --form-color-option-selected: var(
+    --tui-form-color-option-selected,
+    var(--white)
+  );
+  --form-bg-color-hover: var(--tui-form-bg-color-hover, var(--white-dark));
+  --form-color: var(--tui-form-color, var(--dark));
+  --form-bg: var(--tui-form-bg, var(--white));
+  --form-error-color: var(--tui-form-error-color, var(--red));
+  --form-error-border: var(--tui-form-error-border, var(--red));
+  --form-border-focus-color: var(
+    --tui-form-border-focus-color,
+    var(--primary-col)
+  );
   /*=============================================
 =                 Small Text                       =
 =============================================*/
---utility-small-text:var(--tui-utility-small-text,var(--dark-light));
+  --utility-small-text: var(--tui-utility-small-text, var(--dark-light));
+
+  /*=============================================
+=                 nav                       =
+=============================================*/
+  --nav-bg-color: var(--tui-nav-bg-color, var(--primary-col));
 }

@@ -51,7 +51,7 @@
 =============================================*/
   --text-font-size-xs: var(--tui-text-font-size-xs, var(--fs-xs));
   --text-font-size-sm: var(--tui-text-font-size-sm, var(--fs-sm));
-  --text-font-size-base: var(--tui-text-font-size-base, var(--fs-base));
+  --text-font-size-md: var(--tui-text-font-size-md, var(--fs-md));
   --text-font-size-lg: var(--tui-text-font-size-lg, var(--fs-lg));
   --text-font-size-xl: var(--tui-text-font-size-xl, var(--fs-xl));
 
@@ -79,7 +79,17 @@
 =============================================*/
   --text-line-height-xs: var(--tui-text-line-height-xs, var(--lh-xs));
   --text-line-height-sm: var(--tui-text-line-height-sm, var(--lh-sm));
-  --text-line-height-base: var(--tui-text-line-height-base, var(--lh-base));
+  --text-line-height-md: var(--tui-text-line-height-md, var(--lh-md));
   --text-line-height-lg: var(--tui-text-line-height-lg, var(--lh-lg));
   --text-line-height-xl: var(--tui-text-line-height-xl, var(--lh-xl));
+
+  /*=============================================
+=            bold            =
+=============================================*/
+
+  --b-4: var(--tui-b-4, var(--fw-semibold));
+  --b-3: var(--tui-b-3, var(--fw-bold));
+  --b-2: var(--tui-b-2, var(--fw-extrabold));
+  --b-1: var(--tui-b-1, var(--fw-black));
 }
+/*=====  End of bold  ======*/

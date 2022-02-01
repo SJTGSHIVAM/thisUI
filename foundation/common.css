@@ -35,4 +35,16 @@
     --tui-media-breakpoints-2xl,
     var(--breakpoints-2xl)
   );
+
+  /*=============================================
+=            border            =
+=============================================*/
+
+  --border-width-xs: var(--tui-border-width-xs, var(--bw-xs));
+  --border-width-sm: var(--tui-border-width-sm, var(--bw-sm));
+  --border-width-md: var(--tui-border-width-md, var(--bw-md));
+  --border-width-lg: var(--tui-border-width-lg, var(--bw-lg));
+  --border-width-xl: var(--tui-border-width-xl, var(--bw-xl));
+
+  /*=====  End of border  ======*/
 }

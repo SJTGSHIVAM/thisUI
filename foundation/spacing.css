@@ -32,7 +32,10 @@
     --tui-nav-padding-spacing-sm,
     var(--spacing-sm)
   );
-  --nav-padding-spacing-md: var--tui-nav-padding-spacing-md, var(--spacing-md);
+  --nav-padding-spacing-md: var(
+    --tui-nav-padding-spacing-md,
+    var(--spacing-md)
+  );
   --nav-padding-spacing-lg: var(
     --tui-nav-padding-spacing-lg,
     var(--spacing-lg)
