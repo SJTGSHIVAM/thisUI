@@ -11,6 +11,8 @@
   align-items: baseline;
   background-color: var(--nav-bg-color);
   padding: var(--nav-padding-spacing-md);
+  background: rgb(197, 236, 255);
+  background: linear-gradient(90deg, var(--nav-bg-color) 0%, var(--white) 89%);
 }
 .tuid__nav--menu {
   height: var(--h-2-font-size);
@@ -31,15 +33,11 @@
   grid-column-start: lside-con;
   grid-column-end: rside-con;
   overflow-y: scroll;
-
-  /* grid-area: con; */
 }
-/* .tuid__main div {
-  height: 500px;
-} */
+
 .tuid__foot {
   grid-area: foot;
-  background-color: black;
+  background-color: var(--secondary-col);
 }
 
 .tuid__drawer--li {
