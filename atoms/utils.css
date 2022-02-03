@@ -219,6 +219,47 @@
   padding-inline: var(--padding-xxxl);
 }
 
+.tui__pd-tb-none {
+  padding-bottom: var(--padding-none);
+  padding-top: var(--padding-none);
+}
+.tui__pd-tb-xxxs {
+  padding-bottom: var(--padding-xxxs);
+  padding-top: var(--padding-xxxs);
+}
+.tui__pd-tb-xxs {
+  padding-bottom: var(--padding-xxs);
+  padding-top: var(--padding-xxs);
+}
+.tui__pd-tb-xs {
+  padding-bottom: var(--padding-xs);
+  padding-top: var(--padding-xs);
+}
+.tui__pd-tb-sm {
+  padding-bottom: var(--padding-sm);
+  padding-top: var(--padding-sm);
+}
+.tui__pd-tb-md {
+  padding-bottom: var(--padding-md);
+  padding-top: var(--padding-md);
+}
+.tui__pd-tb-lg {
+  padding-bottom: var(--padding-lg);
+  padding-top: var(--padding-lg);
+}
+.tui__pd-tb-xl {
+  padding-bottom: var(--padding-xl);
+  padding-top: var(--padding-xl);
+}
+.tui__pd-tb-xxl {
+  padding-bottom: var(--padding-xxl);
+  padding-top: var(--padding-xxl);
+}
+.tui__pd-tb-xxxl {
+  padding-bottom: var(--padding-xxxl);
+  padding-top: var(--padding-xxxl);
+}
+
 /*=====  End of padding  ======*/
 
 /*=============================================
@@ -408,6 +449,47 @@
 }
 .tui__m-in-xxxl {
   margin-inline: var(--margin-xxxl);
+}
+
+.tui__m-tb-none {
+  margin-bottom: var(--margin-none);
+  margin-top: var(--margin-none);
+}
+.tui__m-tb-xxxs {
+  margin-bottom: var(--margin-xxxs);
+  margin-top: var(--margin-xxxs);
+}
+.tui__m-tb-xxs {
+  margin-bottom: var(--margin-xxs);
+  margin-top: var(--margin-xxs);
+}
+.tui__m-tb-xs {
+  margin-bottom: var(--margin-xs);
+  margin-top: var(--margin-xs);
+}
+.tui__m-tb-sm {
+  margin-bottom: var(--margin-sm);
+  margin-top: var(--margin-sm);
+}
+.tui__m-tb-md {
+  margin-bottom: var(--margin-md);
+  margin-top: var(--margin-md);
+}
+.tui__m-tb-lg {
+  margin-bottom: var(--margin-lg);
+  margin-top: var(--margin-lg);
+}
+.tui__m-tb-xl {
+  margin-bottom: var(--margin-xl);
+  margin-top: var(--margin-xl);
+}
+.tui__m-tb-xxl {
+  margin-bottom: var(--margin-xxl);
+  margin-top: var(--margin-xxl);
+}
+.tui__m-tb-xxxl {
+  margin-bottom: var(--margin-xxxl);
+  margin-top: var(--margin-xxxl);
 }
 
 /*=====  End of margin  ======*/
