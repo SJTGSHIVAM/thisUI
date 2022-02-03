@@ -23,7 +23,7 @@ const drawerData = [
 function createnavBar(navTop) {
   createNode({
     element: "div",
-    className: "tuid__logo--nav tui__flex-row-pack",
+    className: "tuid__logo--nav tui__flex--row-pack",
     children: [
       createNode({
         element: "a",
@@ -90,7 +90,7 @@ function createDrrawer(drawer, drawerData) {
   createNode({
     element: "ul",
     parent: drawer,
-    className: "tui__drawer--list tui__flex-col-justify-center",
+    className: "tui__drawer--list tui__flex--col-justify-center",
     children: [
       ...drawerData.map((li) =>
         createNode({
