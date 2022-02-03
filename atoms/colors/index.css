@@ -1,0 +1,6 @@
+.tui__col--font {
+  color: var(--body-text-color);
+}
+.tui__col--svg {
+  filter: var(--body-svg-color);
+}

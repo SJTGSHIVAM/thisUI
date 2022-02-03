@@ -61,11 +61,11 @@ function createnavBar(navTop) {
             : createNode({
                 element: "img",
                 src: "/assets/svgs/menu.svg",
-                className: "tuid__nav--menu",
+                className: "tuid__nav--menu tui__col--svg",
                 onClick: (e) => {
-                  drawer.classList.contains("tui__dis-none")
-                    ? drawer.classList.remove("tui__dis-none")
-                    : drawer.classList.add("tui__dis-none");
+                  drawer.classList.contains("tui__dis--none")
+                    ? drawer.classList.remove("tui__dis--none")
+                    : drawer.classList.add("tui__dis--none");
                 },
               }),
         ],

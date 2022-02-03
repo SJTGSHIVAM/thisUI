@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: baseline;
   background-color: var(--nav-bg-color);
+  color: var(--secondary-col);
   padding: var(--nav-padding-spacing-md);
   background: rgb(197, 236, 255);
   background: linear-gradient(90deg, var(--nav-bg-color) 0%, var(--white) 89%);
@@ -49,6 +50,9 @@
 
 body {
   min-height: 100vh;
+  color: var(--body-text-color);
+  background-color: var(--body-bg-color);
+
   display: grid;
   row-gap: var(--nav-padding-spacing-md);
   grid-template-columns: repeat(12, minmax(8%, 1fr));

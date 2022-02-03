@@ -139,3 +139,7 @@ table {
   margin: 0%;
   padding: 0%;
 }
+body {
+  color: var(--body-text-color);
+  background-color: var(--body-bg-color);
+}

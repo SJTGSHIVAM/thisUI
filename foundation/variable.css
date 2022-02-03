@@ -34,21 +34,38 @@
   /* Brand Colors */
 
   --primary-col: #c5ecff;
-  /* --primary-col: #5ece7c00; */
-  --primary-col-light: #9ee2b0;
+  --primary-col-fil: invert(85%) sepia(19%) saturate(904%) hue-rotate(180deg)
+    brightness(104%) contrast(105%);
 
   --secondary-col: #026696;
+  --secondary-col-fil: invert(26%) sepia(85%) saturate(1144%) hue-rotate(171deg)
+    brightness(94%) contrast(98%);
 
   --dark: #1d1f22;
-  --dark-light: #737680;
+  --dark-fil: invert(6%) sepia(9%) saturate(979%) hue-rotate(176deg)
+    brightness(96%) contrast(86%);
 
-  /* Neutral Colors */
+  --dark-light: #737680;
+  --dark-ligt-fil: invert(53%) sepia(1%) saturate(2752%) hue-rotate(189deg)
+    brightness(85%) contrast(80%);
+
+  /* svg variant */
 
   --gray: #a3a5ad;
+  --gray-fil: invert(68%) sepia(3%) saturate(662%) hue-rotate(191deg)
+    brightness(99%) contrast(86%);
+
   --gray-light: #bebfc4;
+  --gray-light-fil: invert(100%) sepia(57%) saturate(904%) hue-rotate(179deg)
+    brightness(78%) contrast(99%);
 
   --white: #fff;
+  --white-fil: invert(100%) sepia(0%) saturate(7491%) hue-rotate(347deg)
+    brightness(109%) contrast(98%);
+
   --white-dark: #f1f2f3;
+  --white-dark-fil: invert(99%) sepia(6%) saturate(3458%) hue-rotate(174deg)
+    brightness(112%) contrast(91%);
 
   /* Utility colors */
   --green: #5ece7b;
@@ -56,6 +73,9 @@
 
   --red: #d12727;
   --red-light: #f8dedf;
+
+  --yellow: #ffe75f;
+  --yellow-light: #ece098;
 
   --blue: #0468db;
   --blue-light: #b4d2f4;

@@ -13,7 +13,7 @@
 =============================================*/
 :root {
   --body-text-color: var(--tui-body-text-color, var(--dark));
-
+  --body-svg-color: var(--tui-body-svg-color, var(--dark-fil));
   --body-bg-color: var(--tui-body-bg-color, var(--white));
 
   /*=============================================
