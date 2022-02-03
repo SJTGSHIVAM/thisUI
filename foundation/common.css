@@ -46,38 +46,12 @@
   --border-width-lg: var(--tui-border-width-lg, var(--bw-lg));
   --border-width-xl: var(--tui-border-width-xl, var(--bw-xl));
 
-  /*=====  End of border  ======*/
-
   /*=============================================
-  =            margin            =
+  =            alert-border            =
   =============================================*/
+  --alert-border-width: var(--tui-alert-border-width-xs, var(--bw-xs));
 
-  --margin-none: var(--tui-margin-none, var(--spacing-none));
-  --margin-xxxs: var(--tui-margin-xxxs, var(--spacing-xxxs));
-  --margin-xxs: var(--tui-margin-xxs, var(--spacing-xxs));
-  --margin-xs: var(--tui-margin-xs, var(--spacing-xs));
-  --margin-sm: var(--tui-margin-sm, var(--spacing-sm));
-  --margin-md: var(--tui-margin-md, var(--spacing-md));
-  --margin-lg: var(--tui-margin-lg, var(--spacing-lg));
-  --margin-xl: var(--tui-margin-xl, var(--spacing-xl));
-  --margin-xxl: var(--tui-margin-xxl, var(--spacing-xxl));
-  --margin-xxxl: var(--tui-margin-xxxl, var(--spacing-xxxl));
+  /*=====  End of alert-border  ======*/
 
-  /*=====  End of margin  ======*/
-  /*=============================================
-=            padding            =
-=============================================*/
-
-  --padding-none: var(--tui-padding-none, var(--spacing-none));
-  --padding-xxxs: var(--tui-padding-xxxs, var(--spacing-xxxs));
-  --padding-xxs: var(--tui-padding-xxs, var(--spacing-xxs));
-  --padding-xs: var(--tui-padding-xs, var(--spacing-xs));
-  --padding-sm: var(--tui-padding-sm, var(--spacing-sm));
-  --padding-md: var(--tui-padding-md, var(--spacing-md));
-  --padding-lg: var(--tui-padding-lg, var(--spacing-lg));
-  --padding-xl: var(--tui-padding-xl, var(--spacing-xl));
-  --padding-xxl: var(--tui-padding-xxl, var(--spacing-xxl));
-  --padding-xxxl: var(--tui-padding-xxxl, var(--spacing-xxxl));
-
-  /*=====  End of padding  ======*/
+  /*=====  End of border  ======*/
 }
