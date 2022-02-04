@@ -55,7 +55,6 @@
   background-color: var(--btn-primary-bg);
   border-radius: var(--btn-border-radius-xl);
   aspect-ratio: 1;
-  aspect-ratio: 1;
   padding: var(--button-padding-xs);
 }
 

@@ -4,7 +4,172 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/utils/prism.css" />
+    <title>thisUI</title>
   </head>
-  <body></body>
+  <body data-prismjs-copy-timeout="500">
+    <header class="tuid__head">
+      <nav class="tuid__nav--top"></nav>
+    </header>
+
+    <div
+      class="tuid__drawer tui__dis--none invis tui__scrollbar--invisible"
+    ></div>
+    <main class="tuid__main tui__scrollbar--invisible">
+      <h1 class="tui__h-1 tui__m-tb-lg">Typography</h1>
+      <p class="tui__text-sm">
+        Here are different Text utilities that we can use:
+      </p>
+      <ul>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Headings</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            Heading are usually used to give titles:
+          </p>
+          <ul class="tui__bw-sm tui__pd-md tuid__li--component">
+            <li>
+              <h1 class="tui__h-1">This is heading 1.</h1>
+            </li>
+            <li>
+              <h2 class="tui__h-2">This is heading 2.</h2>
+            </li>
+            <li>
+              <h3 class="tui__h-3">This is heading 3.</h3>
+            </li>
+            <li>
+              <h4 class="tui__h-4">This is heading 4.</h4>
+            </li>
+            <li>
+              <h5 class="tui__h-5">This is heading 5.</h5>
+            </li>
+            <li>
+              <h6 class="tui__h-6">This is heading 6.</h6>
+            </li>
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+    
+    <h1 class="tui__h-1">This is heading 1.</h1>
+
+    <h2 class="tui__h-2">This is heading 2.</h2>
+
+    <h3 class="tui__h-3">This is heading 3.</h3>
+
+    <h4 class="tui__h-4">This is heading 4.</h4>
+
+    <h5 class="tui__h-5">This is heading 5.</h5>
+      
+    <h6 class="tui__h-6">This is heading 6.</h6>
+
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Text</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            Text are usually used to lay normal content:
+          </p>
+          <ul class="tui__bw-sm tui__pd-md tuid__li--component">
+            <li>
+              <p class="tui__text-xl">This is text xl.</p>
+            </li>
+            <li>
+              <p class="tui__text-lg">This is text lg.</p>
+            </li>
+            <li>
+              <p class="tui__text-md">This is text md.</p>
+            </li>
+            <li>
+              <p class="tui__text-sm">This is text sm.</p>
+            </li>
+            <li>
+              <p class="tui__text-xs">This is text xs.</p>
+            </li>
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+    
+    <p class="tui__text-xl">This is text xl.</p>
+
+    <p class="tui__text-lg">This is text lg.</p>
+
+    <p class="tui__text-md">This is text md.</p>
+
+    <p class="tui__text-sm">This is text sm.</p>
+    
+    <p class="tui__text-xs">This is text xs.</p>
+
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Small text</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            Small Text can be used to represent text in smaller sizes:
+          </p>
+          <ul class="tui__bw-sm tui__pd-md tuid__li--component">
+            <li>
+              <p class="tui__small--text">This is small text.</p>
+            </li>
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+    
+    <p class="tui__small--text">This is small text.</p>
+
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Text Alignment</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            Text Alignment can be used to align text:
+          </p>
+          <ul class="tui__bw-sm tui__pd-md">
+            <li>
+              <div class="tui__text-md tui__text--center">
+                This is text center.
+              </div>
+            </li>
+            <li class="tui__m-xl">
+              <div class="tui__text-md tui__text--justify">
+                This is text justify.This is text justify.This is text
+                justify.This is text justify.This is text justify.This is text
+                justify.This is text justify.This is text justify.
+              </div>
+            </li>
+            <li>
+              <div class="tui__text-md tui__text--left">This is text left.</div>
+            </li>
+            <li>
+              <div class="tui__text-md tui__text--right">
+                This is text right.
+              </div>
+            </li>
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+    
+    <div class="tui__text-md tui__text--center">This is text center.</div>
+
+    <div class="tui__text-md tui__text--justify">This is text justify.</div>
+
+    <div class="tui__text-md tui__text--left">This is text left.</div>
+
+    <div class="tui__text-md tui__text--right">This is text right.</div>
+
+              </code></pre>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="tuid__foot"></footer>
+
+    <script src="/utils/preFormatter.js" type="module"></script>
+    <script src="/index.js" type="module"></script>
+    <script src="/utils/prism.js" type="module"></script>
+  </body>
 </html>
