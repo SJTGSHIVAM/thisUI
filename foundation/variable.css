@@ -68,14 +68,14 @@
     brightness(112%) contrast(91%);
 
   /* Utility colors */
-  --green: #5ece7b;
-  --green-light: #9ee2b0;
+  --green: #1bce4b;
+  --green-light: #b4e6c1;
 
-  --red: #d12727;
+  --red: #ca0000;
   --red-light: #f8dedf;
 
-  --yellow: #ffe75f;
-  --yellow-light: #ece098;
+  --yellow: #d1b725;
+  --yellow-light: #ddd4a3;
 
   --blue: #0468db;
   --blue-light: #b4d2f4;
@@ -105,7 +105,8 @@
   --fs-lg: 2rem; /* 32px */
   --fs-md: 1.5rem; /* 24px */
   --fs-sm: 1rem; /* 16px */
-  --fs-xs: 0.5rem; /* 8px */
+  --fs-xs: 0.75rem; /* 12px */
+  --fs-xxs: 0.5rem; /* 12px */
 
   /* Heading font sizes */
   --h-1: 3rem; /* 64px */
@@ -183,5 +184,30 @@
   --bw-sm: 0.2rem;
   --bw-xs: 0.1rem;
 
+  --br-xl: 50%;
+  --br-lg: 1rem;
+  --br-md: 0.75rem;
+  --br-sm: 0.5rem;
+  --br-xs: 0.25rem;
+
   /*=====  End of border  ======*/
+  --height-xxxl: 5rem;
+  --height-xxl: 4rem;
+  --height-xl: 3rem;
+  --height-lg: 2rem;
+  --height-md: 1.5rem;
+  --height-sm: 1.25rem;
+  --height-xs: 1rem;
+  --height-xxs: 0.75rem;
+  --height-xxxs: 0.5rem;
+
+  --width-xxxl: 6rem;
+  --width-xxl: 5rem;
+  --width-xl: 4rem;
+  --width-lg: 3rem;
+  --width-md: 2rem;
+  --width-sm: 1.5rem;
+  --width-xs: 1.25rem;
+  --width-xxs: 1rem;
+  --width-xxxs: 0.75rem;
 }

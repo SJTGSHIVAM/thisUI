@@ -46,5 +46,25 @@
   --border-width-lg: var(--tui-border-width-lg, var(--bw-lg));
   --border-width-xl: var(--tui-border-width-xl, var(--bw-xl));
 
-  /*=====  End of border  ======*/
+  /*=============================================
+  =            alert-border            =
+  =============================================*/
+  --alert-border-width: var(--tui-alert-border-width-xs, var(--bw-xs));
+
+  /*=====  End of alert-border  ======*/
+
+  /*=============================================
+  =            button            =
+  =============================================*/
+
+  --btn-border-radius-xl: var(--tui-btn-border-radius-xl, var(--br-xl));
+  --btn-border-radius-lg: var(--tui-btn-border-radius-lg, var(--br-lg));
+  --btn-border-radius-md: var(--tui-btn-border-radius-md, var(--br-md));
+  --btn-border-radius-sm: var(--tui-btn-border-radius-sm, var(--br-sm));
+  --btn-border-radius-xs: var(--tui-btn-border-radius-xs, var(--br-xs));
+
+  --btn-svg-height: var(--tui-btn-svg-height, var(--height-sm));
+  --btn-svg-width: var(--tui-btn-svg-height, var(--width-sm));
+
+  /*=====  End of button  ======*/
 }

@@ -26,6 +26,18 @@
     var(--primary-col-light)
   );
 
+  --btn-link-color: var(--tui-btn-link-color, var(--white));
+  --btn-link-bg: var(--tui-btn-link-bg, var(--blue));
+  --btn-link-bg-hover: var(--tui-btn-link-bg-hover, var(--blue-light));
+
+  --btn-icon-color: var(--tui-btn-icon-color, inherit);
+  --btn-icon-bg: var(--tui-btn-icon-bg, var(--white-dark));
+  --btn-icon-bg-hover: var(--tui-btn-icon-bg-hover, var(--blue-light));
+
+  --btn-float-color: var(--tui-btn-float-color, var(inherit));
+  --btn-float-bg: var(--tui-btn-float-bg, var(--red-light));
+  --btn-float-bg-hover: var(--tui-btn-float-bg-hover, var(--red));
+
   /*=============================================
 =                 Forms                       =
 =============================================*/
@@ -57,4 +69,19 @@
 =                 nav                       =
 =============================================*/
   --nav-bg-color: var(--tui-nav-bg-color, var(--primary-col));
+
+  /*=============================================
+=            alert            =
+=============================================*/
+
+  --alert-bg-success: var(--tui-alert-bg-success, var(--green-light));
+  --alert-bd-success: var(--tui-alert-bd-success, var(--green));
+  --alert-bg-info: var(--tui-alert-bg-info, var(--blue-light));
+  --alert-bd-info: var(--tui-alert-bd-info, var(--blue));
+  --alert-bg-error: var(--tui-alert-bg-error, var(--red-light));
+  --alert-bd-error: var(--tui-alert-bd-error, var(--red));
+  --alert-bg-warning: var(--tui-alert-bg-warning, var(--yellow-light));
+  --alert-bd-warning: var(--tui-alert-bd-warning, var(--yellow));
+
+  /*=====  End of alert  ======*/
 }

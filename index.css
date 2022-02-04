@@ -78,3 +78,14 @@ body {
   }
 }
 /*=====  End of usage layout  ======*/
+
+.tuid__li--component {
+  display: grid;
+  justify-content: stretch;
+  gap: var(--margin-xs);
+}
+
+.tuid__li--component > * {
+  display: flex;
+  justify-content: center;
+}

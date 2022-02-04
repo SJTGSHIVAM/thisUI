@@ -1,1 +1,15 @@
 @import "../atoms/utils.css";
+
+/*=============================================
+=            float-temp-display            =
+=============================================*/
+
+.tuid__btn--float-display {
+  color: var(--btn-float-color);
+  background-color: var(--btn-float-bg);
+  border-radius: var(--btn-border-radius-xl);
+  aspect-ratio: 1;
+  padding: var(--button-padding-xs);
+}
+
+/*=====  End of float-temp-display  ======*/

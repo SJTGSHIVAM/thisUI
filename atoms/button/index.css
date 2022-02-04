@@ -1,0 +1,186 @@
+.btn-svg-f-size {
+  height: var(--btn-svg-height);
+  width: var(--btn-svg-height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tui__btn--primary-br-none {
+  color: var(--btn-primary-color);
+  background-color: var(--btn-primary-bg);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--primary-br-xs {
+  color: var(--btn-primary-color);
+  background-color: var(--btn-primary-bg);
+  border-radius: var(--btn-border-radius-xs);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--primary-br-sm {
+  color: var(--btn-primary-color);
+  background-color: var(--btn-primary-bg);
+  border-radius: var(--btn-border-radius-sm);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--primary-br-md {
+  color: var(--btn-primary-color);
+  background-color: var(--btn-primary-bg);
+  border-radius: var(--btn-border-radius-md);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--primary-br-lg {
+  color: var(--btn-primary-color);
+  background-color: var(--btn-primary-bg);
+  border-radius: var(--btn-border-radius-lg);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--primary-br-xl {
+  color: var(--btn-primary-color);
+  background-color: var(--btn-primary-bg);
+  border-radius: var(--btn-border-radius-xl);
+  aspect-ratio: 1;
+  aspect-ratio: 1;
+  padding: var(--button-padding-xs);
+}
+
+.tui__btn--link-br-none {
+  color: var(--btn-link-color);
+  background-color: var(--btn-link-bg);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--link-br-xs {
+  color: var(--btn-link-color);
+  background-color: var(--btn-link-bg);
+  border-radius: var(--btn-border-radius-sm);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--link-br-sm {
+  color: var(--btn-link-color);
+  background-color: var(--btn-link-bg);
+  border-radius: var(--btn-border-radius-sm);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--link-br-md {
+  color: var(--btn-link-color);
+  background-color: var(--btn-link-bg);
+  border-radius: var(--btn-border-radius-md);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--link-br-lg {
+  color: var(--btn-link-color);
+  background-color: var(--btn-link-bg);
+  border-radius: var(--btn-border-radius-lg);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--link-br-xl {
+  color: var(--btn-link-color);
+  background-color: var(--btn-link-bg);
+  border-radius: var(--btn-border-radius-xl);
+  aspect-ratio: 1;
+  padding: var(--button-padding-xs);
+}
+
+.tui__btn--icon-br-none {
+  color: var(--btn-icon-color);
+  background-color: var(--btn-icon-bg);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--icon-br-xs {
+  color: var(--btn-icon-color);
+  background-color: var(--btn-icon-bg);
+  border-radius: var(--btn-border-radius-xs);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--icon-br-sm {
+  color: var(--btn-icon-color);
+  background-color: var(--btn-icon-bg);
+  border-radius: var(--btn-border-radius-sm);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--icon-br-md {
+  color: var(--btn-icon-color);
+  background-color: var(--btn-icon-bg);
+  border-radius: var(--btn-border-radius-md);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--icon-br-lg {
+  color: var(--btn-icon-color);
+  background-color: var(--btn-icon-bg);
+  border-radius: var(--btn-border-radius-lg);
+  padding-top: var(--button-padding-top-bottom);
+  padding-bottom: var(--button-padding-top-bottom);
+  padding-right: var(--button-padding-inline);
+  padding-left: var(--button-padding-inline);
+}
+.tui__btn--icon-br-xl {
+  color: var(--btn-icon-color);
+  background-color: var(--btn-icon-bg);
+  border-radius: var(--btn-border-radius-xl);
+  aspect-ratio: 1;
+  padding: var(--button-padding-xs);
+}
+
+.tui__btn--float-left {
+  color: var(--btn-float-color);
+  background-color: var(--btn-float-bg);
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+  border-radius: var(--btn-border-radius-xl);
+  aspect-ratio: 1;
+  padding: var(--button-padding-xs);
+}
+
+.tui__btn--float-right {
+  color: var(--btn-float-color);
+  background-color: var(--btn-float-bg);
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  border-radius: var(--btn-border-radius-xl);
+  aspect-ratio: 1;
+  padding: var(--button-padding-xs);
+}
