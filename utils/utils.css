@@ -11,5 +11,13 @@
   aspect-ratio: 1;
   padding: var(--button-padding-xs);
 }
+.tuid__badge--display {
+  height: var(--height-xxl);
+  width: var(--g-width-xxl);
+  min-height: var(--g-height-xxl);
+  min-width: var(--g-width-xxl);
+  padding: var(--padding-md);
+  background-color: var(--dark-light);
+}
 
 /*=====  End of float-temp-display  ======*/

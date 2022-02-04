@@ -17,7 +17,7 @@
 .tui__h-3 {
   font-family: var(--h-3-font-family);
   font-size: var(--h-3-font-size);
-  line-height: var(--text-line-height-base);
+  line-height: var(--text-line-height-md);
 }
 .tui__h-4 {
   font-family: var(--h-4-font-family);
@@ -42,9 +42,9 @@
   font-size: var(--text-font-size-lg);
   line-height: var(--text-line-height-lg);
 }
-.tui__text-base {
-  font-size: var(--text-font-size-base);
-  line-height: var(--text-line-height-base);
+.tui__text-md {
+  font-size: var(--text-font-size-md);
+  line-height: var(--text-line-height-md);
 }
 .tui__text-sm {
   font-size: var(--text-font-size-sm);

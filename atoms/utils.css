@@ -12,6 +12,26 @@
 .tui__dis--none {
   display: none;
 }
+.tui__pos--abs-tr {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+.tui__pos--abs-tl {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.tui__pos--abs-br {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+.tui__pos--abs-bl {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
 .tui__pos--abs {
   position: absolute;
 }
@@ -31,8 +51,13 @@
 }
 
 .tui__svg--icon {
-  /* width: 100%; */
   height: 100%;
+}
+
+.tui__img-hw100 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*=============================================

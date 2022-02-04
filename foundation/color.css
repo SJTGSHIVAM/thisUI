@@ -17,6 +17,20 @@
   --body-bg-color: var(--tui-body-bg-color, var(--white));
 
   /*=============================================
+  =            colors            =
+  =============================================*/
+  --col-red: var(--tui__col-red, var(--red));
+  --col-red-light: var(--tui__col-red-light, var(--red-light));
+  --col-blue: var(--tui__col-blue, var(--blue));
+  --col-blue-light: var(--tui__col-blue-light, var(--blue-light));
+  --col-green: var(--tui__col-green, var(--green));
+  --col-green-light: var(--tui__col-green-light, var(--green-light));
+  --col-yellow: var(--tui__col-yellow, var(--yellow));
+  --col-yellow-light: var(--tui__col-yellow-light, var(--yellow-light));
+
+  /*=====  End of colors  ======*/
+
+  /*=============================================
 =                 Buttons                     =
 =============================================*/
   --btn-primary-color: var(--tui-btn-primary-color, var(--white));
