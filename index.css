@@ -1,5 +1,8 @@
 @import "./atoms/index.css";
 @import "./utils/utils.css";
+@import "/foundation/all.css";
+@import "/atoms/button/index.css";
+@import "/atoms/typography/index.css";
 .tuid__head {
   grid-area: nav;
 }
@@ -35,7 +38,10 @@
   grid-column-end: rside-con;
   overflow-y: scroll;
 }
-
+.tuid__main--intro {
+  display: flex;
+  flex-direction: column;
+}
 .tuid__foot {
   grid-area: foot;
   background-color: var(--secondary-col);
