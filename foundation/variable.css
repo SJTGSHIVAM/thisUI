@@ -191,15 +191,15 @@
   --br-xs: 0.25rem;
 
   /*=====  End of border  ======*/
-  --height-xxxl: 5rem;
-  --height-xxl: 4rem;
-  --height-xl: 3rem;
-  --height-lg: 2rem;
-  --height-md: 1.5rem;
-  --height-sm: 1.25rem;
-  --height-xs: 1rem;
-  --height-xxs: 0.75rem;
-  --height-xxxs: 0.5rem;
+  --height-xxxl: 6rem;
+  --height-xxl: 5rem;
+  --height-xl: 4rem;
+  --height-lg: 3rem;
+  --height-md: 2rem;
+  --height-sm: 1.5rem;
+  --height-xs: 1.25rem;
+  --height-xxs: 1rem;
+  --height-xxxs: 0.75rem;
 
   --width-xxxl: 6rem;
   --width-xxl: 5rem;
