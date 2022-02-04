@@ -1,6 +1,6 @@
 .btn-svg-f-size {
-  height: 1rem;
-  width: 1rem;
+  height: var(--btn-svg-height);
+  width: var(--btn-svg-height);
   display: inline-flex;
   align-items: center;
   justify-content: center;

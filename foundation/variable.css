@@ -191,4 +191,23 @@
   --br-xs: 0.25rem;
 
   /*=====  End of border  ======*/
+  --height-xxxl: 5rem;
+  --height-xxl: 4rem;
+  --height-xl: 3rem;
+  --height-lg: 2rem;
+  --height-md: 1.5rem;
+  --height-sm: 1.25rem;
+  --height-xs: 1rem;
+  --height-xxs: 0.75rem;
+  --height-xxxs: 0.5rem;
+
+  --width-xxxl: 6rem;
+  --width-xxl: 5rem;
+  --width-xl: 4rem;
+  --width-lg: 3rem;
+  --width-md: 2rem;
+  --width-sm: 1.5rem;
+  --width-xs: 1.25rem;
+  --width-xxs: 1rem;
+  --width-xxxs: 0.75rem;
 }
