@@ -1,4 +1,4 @@
-@import "../../foundation/all.css";
+@import "/foundation/all.css";
 .tui__small--text {
   color: var(--utility-small-text);
   font-size: var(--text-font-size-sm);

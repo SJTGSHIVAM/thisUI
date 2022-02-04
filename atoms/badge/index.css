@@ -1,3 +1,4 @@
+@import "/foundation/all.css";
 .tui__badge-xs {
   padding: var(--padding-xs);
   border-radius: var(--badge-border-radius-lg);

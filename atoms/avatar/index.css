@@ -1,3 +1,4 @@
+@import "/foundation/all.css";
 .tui__avatar-xxxl {
   height: var(--avatar-height-xxxl);
   width: var(--avatar-width-xxxl);

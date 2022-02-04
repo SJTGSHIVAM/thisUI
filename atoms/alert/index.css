@@ -1,3 +1,4 @@
+@import "/foundation/all.css";
 .tui__alert--error {
   background-color: var(--alert-bg-error);
   min-width: 80%;

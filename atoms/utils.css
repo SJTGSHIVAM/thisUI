@@ -1,3 +1,4 @@
+@import "/foundation/all.css";
 .tui__flex--row-pack {
   display: flex;
   max-width: max-content;

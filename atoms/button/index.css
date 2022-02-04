@@ -41,6 +41,7 @@
   padding-right: var(--button-padding-inline);
   padding-left: var(--button-padding-inline);
 }
+@import "/foundation/all.css";
 .tui__btn--primary-br-lg {
   color: var(--btn-primary-color);
   background-color: var(--btn-primary-bg);
