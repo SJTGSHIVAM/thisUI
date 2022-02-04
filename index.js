@@ -46,7 +46,7 @@ function createnavBar(navTop) {
   });
   createNode({
     element: "ul",
-    className: "tuid__nav--list tui__text-base",
+    className: "tuid__nav--list tui__text-md",
     children: [
       createNode({
         element: "li",

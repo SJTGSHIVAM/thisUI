@@ -4,3 +4,27 @@
 .tui__col--svg {
   filter: var(--body-svg-color);
 }
+.tui__bgcol--blue {
+  background-color: var(--blue);
+}
+.tui__bgcol--green {
+  background-color: var(--green);
+}
+.tui__bgcol--yellow {
+  background-color: var(--yellow);
+}
+.tui__bgcol--red {
+  background-color: var(--red);
+}
+.tui__bgcol--blue-light {
+  background-color: var(--blue-light);
+}
+.tui__bgcol--green-light {
+  background-color: var(--green-light);
+}
+.tui__bgcol--yellow-light {
+  background-color: var(--yellow-light);
+}
+.tui__bgcol--red-light {
+  background-color: var(--red-light);
+}
