@@ -56,6 +56,21 @@
   /*=====  End of navbar  ======*/
 
   /*=============================================
+  =            button            =
+  =============================================*/
+
+  --button-padding-top-bottom: var(
+    --tui__button-padding-top-bottom,
+    var(--spacing-xs)
+  );
+
+  --button-padding-inline: var(--tui__button-padding-inline, var(--spacing-sm));
+
+  --button-padding-xs: var(--tui__button-padding-xs, var(--spacing-xs));
+
+  /*=====  End of button  ======*/
+
+  /*=============================================
   =            alert            =
   =============================================*/
 

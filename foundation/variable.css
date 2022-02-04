@@ -184,5 +184,11 @@
   --bw-sm: 0.2rem;
   --bw-xs: 0.1rem;
 
+  --br-xl: 50%;
+  --br-lg: 1rem;
+  --br-md: 0.75rem;
+  --br-sm: 0.5rem;
+  --br-xs: 0.25rem;
+
   /*=====  End of border  ======*/
 }

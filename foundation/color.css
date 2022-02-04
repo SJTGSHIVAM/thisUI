@@ -26,6 +26,18 @@
     var(--primary-col-light)
   );
 
+  --btn-link-color: var(--tui-btn-link-color, var(--white));
+  --btn-link-bg: var(--tui-btn-link-bg, var(--blue));
+  --btn-link-bg-hover: var(--tui-btn-link-bg-hover, var(--blue-light));
+
+  --btn-icon-color: var(--tui-btn-icon-color, inherit);
+  --btn-icon-bg: var(--tui-btn-icon-bg, var(--white-dark));
+  --btn-icon-bg-hover: var(--tui-btn-icon-bg-hover, var(--blue-light));
+
+  --btn-float-color: var(--tui-btn-float-color, var(inherit));
+  --btn-float-bg: var(--tui-btn-float-bg, var(--red-light));
+  --btn-float-bg-hover: var(--tui-btn-float-bg-hover, var(--red));
+
   /*=============================================
 =                 Forms                       =
 =============================================*/

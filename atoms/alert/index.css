@@ -21,7 +21,7 @@
 }
 .tui__alert--success {
   background-color: var(--alert-bg-success);
-  min-width: 80% !important;
+  min-width: 80%;
   max-width: 80%;
   border: var(--alert-bd-success) solid var(--alert-border-width);
   padding-top: var(--alert-padding-top-bottom);
