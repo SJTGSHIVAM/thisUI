@@ -24,7 +24,7 @@
 }
 .tuid__drawer {
   background-color: var(--body-bg-color);
-  border-right: var(--border-width-xs) solid var(--primary-col);
+  border-right: var(--g-border-width-xs) solid var(--primary-col);
   grid-row: lside;
   grid-column-start: lside;
   grid-column-end: lside-con;
@@ -37,6 +37,7 @@
   grid-column-start: lside-con;
   grid-column-end: rside-con;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 .tuid__main--intro {
   display: flex;

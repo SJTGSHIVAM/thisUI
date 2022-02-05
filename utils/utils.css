@@ -19,5 +19,8 @@
   padding: var(--padding-md);
   background-color: var(--dark-light);
 }
-
+.tuid__image--dispaly-container {
+  height: var(--height-xxxl);
+  width: var(--g-width-xxxl);
+}
 /*=====  End of float-temp-display  ======*/

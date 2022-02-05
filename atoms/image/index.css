@@ -1,0 +1,13 @@
+/* .tui__img-hw100  comes from utils.css  */
+
+.tui__image--circle-container {
+  overflow: hidden;
+  border-radius: var(--avatar-border-radius-xl);
+  aspect-ratio: 1 / 1;
+}
+.tui__image--center-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
