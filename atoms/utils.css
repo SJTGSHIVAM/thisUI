@@ -555,7 +555,7 @@
   border-style: solid;
 }
 .tui__bw-t-sm {
-  border-top-width: var(-sm);
+  border-top-width: var(--g-border-width-sm);
   border-style: solid;
 }
 .tui__bw-t-md {
