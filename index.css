@@ -69,7 +69,7 @@ body {
     "lside lside lside-con lside-con lside-con lside-con con con con rside-con rside rside"
     "foot foot foot foot foot foot foot foot foot foot foot foot";
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   body {
     grid-template-areas:
       "nav nav nav nav nav nav nav nav nav nav nav nav"

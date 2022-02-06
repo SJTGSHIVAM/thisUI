@@ -528,6 +528,12 @@
 /*=============================================
 =            border- width            =
 =============================================*/
+.tui__outline--none {
+  outline: none;
+}
+.tui__bw-none {
+  border-width: none;
+}
 
 .tui__bw-xs {
   border-width: var(--g-border-width-xs);
@@ -687,3 +693,24 @@
 }
 
 /*=====  End of border- width  ======*/
+
+/*=============================================
+=            border radius            =
+=============================================*/
+.tui__br-xl {
+  border-radius: (--g-border-radius-xl);
+}
+.tui__br-lg {
+  border-radius: (--g-border-radius-lg);
+}
+.tui__br-md {
+  border-radius: (--g-border-radius-md);
+}
+.tui__br-sm {
+  border-radius: (--g-border-radius-sm);
+}
+.tui__br-xs {
+  border-radius: (--g-border-radius-xs);
+}
+
+/*=====  End of border radius  ======*/

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../../atoms/input/index.css" />
+    <link rel="stylesheet" href="../../atoms/button/index.css" />
+    <link rel="stylesheet" href="../../atoms/badge/index.css" />
+    <link rel="stylesheet" href="../../atoms/list/index.css" />
+    <link rel="stylesheet" href="/utils/prism.css" />
+    <title>thisUI</title>
+  </head>
+  <body data-prismjs-copy-timeout="500">
+    <header class="tuid__head">
+      <nav class="tuid__nav--top"></nav>
+    </header>
+
+    <div
+      class="tuid__drawer tui__dis--none invis tui__scrollbar--invisible"
+    ></div>
+    <main class="tuid__main tui__scrollbar--invisible">
+      <h1 class="tui__h-1 tui__m-tb-xxxl">Navbar</h1>
+      <p class="tui__text-sm">Navbar helps you navigate within a website.</p>
+      <ul>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Desktop version</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            This is designed mainly for desktops but it also works mobile
+            devices as well(note: navbar may not apear its best here as the size
+            of div differes from the screen size by half):
+          </p>
+          <ul class="tui__bw-sm tui__pd-md tuid__li--component">
+            <li>
+              <nav class="tui__nav--box tui__pd-in-xs">
+                <h1 class="tui__nav--logo tui__h-3">MY WEBSITE</h1>
+                <div class="tui__nav--mix">
+                  <span class="tui__input--box">
+                    <label for="tui__nav--search" class="tui__dis--none"
+                      >Search</label
+                    >
+                    <input
+                      type="text"
+                      placeholder="Search"
+                      class="tui__input--val"
+                      id="tui__nav--search"
+                    />
+                  </span>
+                </div>
+                <ul class="tui__nav--list">
+                  <li>
+                    <button class="tui__btn--link-br-none tui__m-in-md">
+                      <a href="#">Link</a>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="tui__btn--icon-br-none">
+                      <span class="btn-svg-f-size">
+                        <img
+                          class="tui__svg--icon"
+                          src="/assets/svgs/hollowheart.svg"
+                        />
+                      </span>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="tui__btn--icon-br-none">
+                      <span class="btn-svg-f-size">
+                        <img
+                          class="tui__svg--icon"
+                          src="/assets/svgs/cart.svg"
+                        />
+                      </span>
+                      Cart
+                    </button>
+                  </li>
+                </ul>
+              </nav>
+            </li>
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <nav class="tui__nav--box tui__pd-in-xl">
+      <h1 class="tui__nav--logo tui__h-3">MY WEBSITE</h1>
+      <div class="tui__nav--mid">
+        <span class="tui__input--box">
+          <label for="search" class="tui__dis--none">Search</label>
+          <input
+            type="text"
+            placeholder="Search"
+            class="tui__input--val"
+            id="search"
+          />
+        </span>
+      </div>
+      <ul class="tui__nav--list">
+        <li>
+          <button class="tui__btn--link-br-none tui__m-in-md">
+            <a href="#">Link</a>
+          </button>
+        </li>
+        <li>
+          <button class="tui__btn--icon-br-none">
+            <span class="btn-svg-f-size">
+              <img
+                class="tui__svg--icon"
+                src="/assets/svgs/hollowheart.svg"
+              />
+            </span>
+          </button>
+        </li>
+        <li>
+          <button class="tui__btn--icon-br-none">
+            <span class="btn-svg-f-size">
+              <img
+                class="tui__svg--icon"
+                src="/assets/svgs/cart.svg"
+              />
+            </span>
+            Cart
+          </button>
+        </li>
+      </ul>
+    </nav>
+    
+              </code></pre>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="tuid__foot"></footer>
+
+    <script src="/utils/preFormatter.js" type="module"></script>
+    <script src="/index.js" type="module"></script>
+    <script src="/utils/prism.js" type="module"></script>
+  </body>
+</html>
