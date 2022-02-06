@@ -1,3 +1,64 @@
 .tui__list--inline > * {
   display: inline;
 }
+
+.tui__ol--up-alpha {
+  list-style: upper-alpha;
+}
+
+.tui__ol--low-alpha {
+  list-style: lower-alpha;
+}
+
+.tui__ol--low-roman {
+  list-style: lower-roman;
+}
+
+.tui__ol--up-roman {
+  list-style: upper-roman;
+}
+
+.tui__ol--low-greek {
+  list-style: lower-greek;
+}
+
+.tui__ol--low-latin {
+  list-style: lower-latin;
+}
+
+.tui__ol--up-latin {
+  list-style: upper-latin;
+}
+.tui__ol--num {
+  list-style: decimal;
+}
+
+.tui__ul--circle {
+  list-style: circle;
+}
+
+.tui__ul--disc {
+  list-style: disc;
+}
+.tui__ul--square {
+  list-style: square;
+}
+
+.tui__list--stacked {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.tui__list--stacked header {
+  display: flex;
+  gap: var(--margin-xxs);
+  margin: var(--margin-xxs);
+}
+
+.tui__list--stacked > * {
+  border: var(--g-border-width-xs) solid var(--body-bg-color);
+  background-color: var(--body-text-color);
+  color: var(--body-bg-color);
+  border-radius: 5px;
+  padding: var(--padding-sm);
+}
