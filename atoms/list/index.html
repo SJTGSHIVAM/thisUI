@@ -18,44 +18,270 @@
       class="tuid__drawer tui__dis--none invis tui__scrollbar--invisible"
     ></div>
     <main class="tuid__main tui__scrollbar--invisible">
-      <h1 class="tui__h-1 tui__m-tb-xxxl">Input</h1>
+      <h1 class="tui__h-1 tui__m-tb-xxxl">List</h1>
       <p class="tui__text-sm">
-        Input element is use to take input here is input component which has
-        different styles for valid and invalid entries you can try out invalid
-        by filling text in below number field:
+        Lists have various use cases and are one of the most used elements.
       </p>
       <ul>
         <li>
-          <h3 class="tui__h-3 tui__m-tb-lg">Text Input</h3>
+          <h3 class="tui__h-3 tui__m-tb-lg">Inline list</h3>
           <p class="tui__text-sm tui__m-b-sm">
             This instance is using number as type but don't be shy to apply it
             to different use cases:
           </p>
           <ul class="tui__bw-sm tui__pd-md tuid__li--component">
             <li>
-              <span class="tui__input--box">
-                <label>Display number:</label>
-                <input
-                  type="number"
-                  placeholder="enter number"
-                  class="tui__input--val"
-                  name="display"
-                />
-              </span>
+              <ul class="tui__list--inline">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ul>
             </li>
           </ul>
           <div class="preformat tui__m-tb-lg">
             <pre id><code class="language-markup">
 
-    <span class="tui__input--box">
-      <label for="display">Display number:</label>
-      <input
-        type="number"
-        placeholder="enter number"
-        class="tui__input--val"
-        id="display"
-      />
-    </span>
+    <ul class="tui__list--inline">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
+    
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Ordered list</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            These are presented with an implicit count value:
+          </p>
+          <ul class="tui__bw-sm tui__pd-md tuid__li--component">
+            <li>
+              <ol class="tui__ol--up-latin">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ol>
+            </li>
+            <li>
+              <ol class="tui__ol--low-latin">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ol>
+            </li>
+            <li>
+              <ol class="tui__ol--num">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ol>
+            </li>
+            <li>
+              <ol class="tui__ol--low-greek">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ol>
+            </li>
+            <li>
+              <ol class="tui__ol--up-alpha">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ol>
+            </li>
+            <li>
+              <ol class="tui__ol--low-alpha">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ol>
+            </li>
+            <li>
+              <ol class="tui__ol--up-roman">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ol>
+            </li>
+            <li>
+              <ol class="tui__ol--low-roman">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ol>
+            </li>
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <ol class="tui__ol--up-latin">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+
+    <ol class="tui__ol--low-latin">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+
+    <ol class="tui__ol--num">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+
+    <ol class="tui__ol--low-greek">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+
+    <ol class="tui__ol--up-alpha">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+
+    <ol class="tui__ol--low-alpha">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+
+    <ol class="tui__ol--up-roman">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+
+    <ol class="tui__ol--low-roman">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Unordered list</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            These are presented without the count value:
+          </p>
+          <ul class="tui__bw-sm tui__pd-md tuid__li--component">
+            <li>
+              <ul class="tui__ul--circle">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ul>
+            </li>
+            <li>
+              <ul class="tui__ul--disc">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ul>
+            </li>
+            <li>
+              <ul class="tui__ul--square">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+                <li>list item 4</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <ul class="tui__ul--circle">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
+
+    <ul class="tui__ul--disc">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
+
+    <ul class="tui__ul--square">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
+
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Stacked list</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            Stacked list are often used as notification bars:
+          </p>
+          <ul class="tui__bw-sm tui__pd-md tuid__li--component">
+            <li>
+              <ul class="tui__list--stacked">
+                <li><header><img src="/assets/svgs/heart.svg" class="tui__svg--icon-font" />
+                  <h4 class="tui__h-4">heading</h4></header>
+                  <p class="tui__text-xs">Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li><header><img src="/assets/svgs/heart.svg" class="tui__svg--icon-font" />
+                  <h4 class="tui__h-4">heading</h4></header>
+                  <p class="tui__text-xs">Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li><header><img src="/assets/svgs/heart.svg" class="tui__svg--icon-font" />
+                  <h4 class="tui__h-4">heading</h4></header>
+                  <p class="tui__text-xs">Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li><header><img src="/assets/svgs/heart.svg" class="tui__svg--icon-font" />
+                  <h4 class="tui__h-4">heading</h4></header>
+                  <p class="tui__text-xs">Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li><header><img src="/assets/svgs/heart.svg" class="tui__svg--icon-font" />
+                  <h3 class="tui__h-4">heading</h4></header>
+                  <p class="tui__text-xs">Lorem ipsum dolor sit amet.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <ul class="tui__list--stacked">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
     
               </code></pre>
           </div>
