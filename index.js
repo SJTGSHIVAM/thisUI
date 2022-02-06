@@ -5,7 +5,7 @@ const drawer = document.querySelector(".tuid__drawer");
 // util function to create dom nodes
 const drawerData = [
   { innerText: "Introduction", href: "/usage" },
-  { innerText: "Colors", href: "/atoms/colors" },
+  // { innerText: "Colors", href: "/atoms/colors" },
   { innerText: "Typography", href: "/atoms/typography" },
   { innerText: "Alert", href: "/atoms/alert" },
   { innerText: "Avatar", href: "/atoms/avatar" },
@@ -14,6 +14,7 @@ const drawerData = [
   { innerText: "Card", href: "/molecules/card" },
   { innerText: "Image", href: "/atoms/image" },
   { innerText: "Input", href: "/atoms/input" },
+  { innerText: "Grid", href: "/atoms/grid" },
   // { innerText: "Dummy", href: "/atoms/typography" },
   // { innerText: "Dummy", href: "/atoms/typography" },
   // { innerText: "Dummy", href: "/atoms/typography" },
