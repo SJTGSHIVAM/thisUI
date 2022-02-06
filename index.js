@@ -16,6 +16,7 @@ const drawerData = [
   { innerText: "Input", href: "/atoms/input" },
   { innerText: "Grid", href: "/atoms/grid" },
   { innerText: "Navbar", href: "/molecules/navbar" },
+  { innerText: "Rating", href: "/molecules/rating" },
   // { innerText: "Dummy", href: "/atoms/typography" },
   // { innerText: "Dummy", href: "/atoms/typography" },
   // { innerText: "Dummy", href: "/atoms/typography" },

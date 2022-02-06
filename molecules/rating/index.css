@@ -1,16 +1,34 @@
-.tui__nav--box {
-  display: grid;
-  width: 100%;
-  grid-template-columns: max-content 1fr max-content;
-  align-items: baseline;
-  justify-content: space-evenly;
-  justify-items: center;
-  background-color: var(--nav-icon-bg);
+.tui__rating {
+  border: none;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.tui__nav--list {
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: space-evenly;
-  justify-items: center;
+.tui__rating > input {
+  display: none;
+}
+
+.tui__rating > label:before {
+  content: "\f005"; /*needed fot making half star*/
+  font-family: FontAwesome; /*needed fot making half star*/
+  font-size: var(--text-font-size-xl);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tui__rating > .half:before {
+  content: "\f089"; /*needed fot making half star*/
+  position: absolute;
+  cursor: pointer;
+}
+
+.tui__rating > label {
+  color: var(--body-text-color);
+  cursor: pointer;
+}
+
+.tui__rating > input:checked ~ label,
+.tui__rating:not(:checked) > label:hover,
+.tui__rating:not(:checked) > label:hover ~ label {
+  color: var(--col-yellow);
 }
