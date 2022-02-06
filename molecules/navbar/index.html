@@ -28,24 +28,28 @@
         <li>
           <h3 class="tui__h-3 tui__m-tb-lg">Desktop version</h3>
           <p class="tui__text-sm tui__m-b-sm">
-            This is designed mainly for desktops:
+            This is designed mainly for desktops but it also works mobile
+            devices as well(note: navbar may not apear its best here as the size
+            of div differes from the screen size by half):
           </p>
           <ul class="tui__bw-sm tui__pd-md tuid__li--component">
             <li>
-              <nav class="tui__nav--box">
-                <h1 class="tui__nav--logo tui__h-3 tui__m-l-xl">MY WEBSITE</h1>
+              <nav class="tui__nav--box tui__pd-in-xs">
+                <h1 class="tui__nav--logo tui__h-3">MY WEBSITE</h1>
                 <div class="tui__nav--mix">
                   <span class="tui__input--box">
-                    <label for="search" class="tui__dis--none">Search</label>
+                    <label for="tui__nav--search" class="tui__dis--none"
+                      >Search</label
+                    >
                     <input
                       type="text"
                       placeholder="Search"
                       class="tui__input--val"
-                      id="search"
+                      id="tui__nav--search"
                     />
                   </span>
                 </div>
-                <ul class="tui__nav--list tui__m-r-xl">
+                <ul class="tui__nav--list">
                   <li>
                     <button class="tui__btn--link-br-none tui__m-in-md">
                       <a href="#">Link</a>
@@ -79,9 +83,9 @@
           <div class="preformat tui__m-tb-lg">
             <pre id><code class="language-markup">
 
-    <nav class="tui__nav--box">
-      <h1 class="tui__nav--logo tui__h-3 tui__m-l-xl">MY WEBSITE</h1>
-      <div class="tui__nav--mix">
+    <nav class="tui__nav--box tui__pd-in-xl">
+      <h1 class="tui__nav--logo tui__h-3">MY WEBSITE</h1>
+      <div class="tui__nav--mid">
         <span class="tui__input--box">
           <label for="search" class="tui__dis--none">Search</label>
           <input
@@ -92,7 +96,7 @@
           />
         </span>
       </div>
-      <ul class="tui__nav--list tui__m-r-xl">
+      <ul class="tui__nav--list">
         <li>
           <button class="tui__btn--link-br-none tui__m-in-md">
             <a href="#">Link</a>

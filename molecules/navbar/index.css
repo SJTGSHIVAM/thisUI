@@ -1,7 +1,7 @@
 .tui__nav--box {
   display: grid;
   width: 100%;
-  grid-template-columns: max-content 1fr max-content;
+  grid-template-columns: 1fr;
   align-items: baseline;
   justify-content: space-evenly;
   justify-items: center;
@@ -13,4 +13,10 @@
   grid-auto-flow: column;
   justify-content: space-evenly;
   justify-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .tui__nav--box {
+    grid-template-columns: max-content 1fr max-content;
+  }
 }
