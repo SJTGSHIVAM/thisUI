@@ -22,72 +22,66 @@
       class="tuid__drawer tui__dis--none invis tui__scrollbar--invisible"
     ></div>
     <main class="tuid__main tui__scrollbar--invisible">
-      <h1 class="tui__h-1 tui__m-tb-xxxl">Navbar</h1>
-      <p class="tui__text-sm">Navbar helps you navigate within a website.</p>
+      <h1 class="tui__h-1 tui__m-tb-xxxl">Rating</h1>
+      <p class="tui__text-sm">Ratings are used to take user feedback.</p>
       <ul>
         <li>
-          <h3 class="tui__h-3 tui__m-tb-lg">Desktop version</h3>
+          <h3 class="tui__h-3 tui__m-tb-lg">Start rating</h3>
           <p class="tui__text-sm tui__m-b-sm">
-            This is designed mainly for desktops:
+            User can rate on a scale of 1-n where n can be any number you
+            chosse.
           </p>
           <ul class="tui__bw-sm tui__pd-md tuid__li--component">
             <li>
-              <nav class="tui__nav--box">
-                <h1 class="tui__nav--logo tui__h-3 tui__m-l-xl">MY WEBSITE</h1>
-                <div class="tui__nav--mix">
-                  <span class="tui__input--box">
-                    <label for="search" class="tui__dis--none">Search</label>
-                    <input
-                      type="text"
-                      placeholder="Search"
-                      class="tui__input--val"
-                      id="search"
-                    />
-                  </span>
-                </div>
-                <ul class="tui__nav--list tui__m-r-xl">
-                  <li>
-                    <button class="tui__btn--link-br-none tui__m-in-md">
-                      <a href="#">Link</a>
-                    </button>
-                  </li>
-                  <li>
-                    <button class="tui__btn--icon-br-none">
-                      <span class="btn-svg-f-size">
-                        <img
-                          class="tui__svg--icon"
-                          src="/assets/svgs/hollowheart.svg"
-                        />
-                      </span>
-                    </button>
-                  </li>
-                  <li>
-                    <button class="tui__btn--icon-br-none">
-                      <span class="btn-svg-f-size">
-                        <img
-                          class="tui__svg--icon"
-                          src="/assets/svgs/cart.svg"
-                        />
-                      </span>
-                      Cart
-                    </button>
-                  </li>
-                </ul>
-              </nav>
+              <fieldset class="tui__rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" class="full" title="Awesome"></label>
+                <input type="radio" id="star4.5" name="rating" value="4.5" />
+                <label for="star4.5" class="half"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" class="full"></label>
+                <input type="radio" id="star3.5" name="rating" value="3.5" />
+                <label for="star3.5" class="half"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" class="full"></label>
+                <input type="radio" id="star2.5" name="rating" value="2.5" />
+                <label for="star2.5" class="half"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" class="full"></label>
+                <input type="radio" id="star1.5" name="rating" value="1.5" />
+                <label for="star1.5" class="half"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" class="full"></label>
+                <input type="radio" id="star0.5" name="rating" value="0.5" />
+                <label for="star0.5" class="half"></label>
+              </fieldset>
             </li>
           </ul>
           <div class="preformat tui__m-tb-lg">
             <pre id><code class="language-markup">
 
-    <span class="tui__input--box">
-      <label>Display number:</label>
-      <input
-        type="number"
-        placeholder="enter number"
-        class="tui__input--val"
-        name="display"
-      />
-    </span>
+    <fieldset class="tui__rating">
+      <input type="radio" id="star5" name="rating" value="5" />
+      <label for="star5" class="full" title="Awesome"></label>
+      <input type="radio" id="star4.5" name="rating" value="4.5" />
+      <label for="star4.5" class="half"></label>
+      <input type="radio" id="star4" name="rating" value="4" />
+      <label for="star4" class="full"></label>
+      <input type="radio" id="star3.5" name="rating" value="3.5" />
+      <label for="star3.5" class="half"></label>
+      <input type="radio" id="star3" name="rating" value="3" />
+      <label for="star3" class="full"></label>
+      <input type="radio" id="star2.5" name="rating" value="2.5" />
+      <label for="star2.5" class="half"></label>
+      <input type="radio" id="star2" name="rating" value="2" />
+      <label for="star2" class="full"></label>
+      <input type="radio" id="star1.5" name="rating" value="1.5" />
+      <label for="star1.5" class="half"></label>
+      <input type="radio" id="star1" name="rating" value="1" />
+      <label for="star1" class="full"></label>
+      <input type="radio" id="star0.5" name="rating" value="0.5" />
+      <label for="star0.5" class="half"></label>
+    </fieldset>
     
               </code></pre>
           </div>
