@@ -1,0 +1,54 @@
+.tuid__toast--box-display {
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content) 3fr 1fr;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: var(--margin-lg);
+  background-color: var(--body-text-color);
+  font-size: var(--text-font-size-xs);
+  border-radius: var(--g-border-radius-md);
+  color: var(--body-bg-color);
+  min-width: min-content;
+  max-width: 90%;
+  padding: var(--padding-sm);
+}
+.tui__toast--stacked {
+  grid-template-columns: minmax(min-content, 1fr) max-content;
+}
+@media only screen and (max-width: 850px) {
+  .tui__toast--stacked {
+    bottom: 1%;
+    left: 1%;
+    transform: translateX(4%);
+  }
+}
+.tui__toast--stacked span {
+  grid-column: 1/-1;
+  justify-self: end;
+}
+.tui__toast--pos-b-l {
+  bottom: 1%;
+  left: 1%;
+  transform: translateX(1%);
+}
+
+.tui__toast--action {
+  font-weight: bold;
+  border: none;
+  height: 4ex;
+  min-width: min-content;
+}
+.tui__toast--stacked .tui__toast--action {
+  grid-column: span 1;
+  justify-self: right;
+}
+
+.tuid__toast--box-display button,
+.tuid__toast--box-display button img {
+  background-color: var(--body-text-color);
+  border: none;
+  height: 4ex;
+}
+.tui__toast--box-hidden {
+  display: none;
+}
