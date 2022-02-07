@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../../atoms/input/index.css" />
+    <link rel="stylesheet" href="../../atoms/button/index.css" />
+    <link rel="stylesheet" href="../../atoms/badge/index.css" />
+    <link rel="stylesheet" href="../../atoms/list/index.css" />
+    <link rel="stylesheet" href="/utils/prism.css" />
+    <title>thisUI</title>
+  </head>
+  <body data-prismjs-copy-timeout="500">
+    <header class="tuid__head">
+      <nav class="tuid__nav--top"></nav>
+    </header>
+
+    <div
+      class="tuid__drawer tui__dis--none invis tui__scrollbar--invisible"
+    ></div>
+    <main class="tuid__main tui__scrollbar--invisible">
+      <h1 class="tui__h-1 tui__m-tb-xxxl">Modal</h1>
+      <p class="tui__text-sm">
+        Modal acts as a pop up menu that draws all the attention of user at
+        once.
+      </p>
+      <ul>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Action Choice</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            A simple modal is here, notice this is fully customizable where you
+            can but different components from thisUI within header, main and
+            footer section. The modal is responsive so will take up desired size
+            according to the content and the screen available.
+          </p>
+          <ul class="tui__bw-sm tui__pd-md tuid__li--component">
+            <li>
+              <div class="tui__modal--box">
+                <header>
+                  <h3 class="tui__h-3 tui__modal--title">Title</h3>
+                  <span class="tui__modal--close">
+                    <img
+                      class="tui__svg--icon-font"
+                      src="/assets/svgs/closeb.svg"
+                  /></span>
+                </header>
+                <main class="tui__modal--main">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolores sint eaque voluptatibus!
+                </main>
+                <footer class="tui__modal--foot">
+                  <button class="tui__btn--primary-br-none">cancel</button>
+                  <button class="tui__btn--link-br-none">OK</button>
+                </footer>
+              </div>
+            </li>
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <div class="tui__modal--box tui__pos--fix-cen">
+      <header>
+        <h3 class="tui__h-3 tui__modal--title">Title</h3>
+        <span class="tui__modal--close">
+          <img
+            class="tui__svg--icon-font"
+            src="/assets/svgs/closeb.svg"/></span>
+      </header>
+      <main class="tui__modal--main">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Dolores sint eaque voluptatibus!
+     </main>
+      <footer class="tui__modal--foot">
+        <button class="tui__btn--primary-br-none">cancel</button>
+        <button class="tui__btn--link-br-none">OK</button>
+      </footer>
+    </div>
+              </code></pre>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="tuid__foot"></footer>
+
+    <script src="/utils/preFormatter.js" type="module"></script>
+    <script src="/index.js" type="module"></script>
+    <script src="/utils/prism.js" type="module"></script>
+  </body>
+</html>

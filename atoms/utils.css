@@ -39,6 +39,12 @@
 .tui__pos--rel {
   position: relative;
 }
+.tui__pos--fix-cen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .tui__flex--col-justify-center {
   display: flex;
   flex-direction: column;
