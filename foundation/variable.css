@@ -33,7 +33,7 @@
 :root {
   /* Brand Colors */
 
-  --primary-col: #c5ecff;
+  --primary-col: #6abee9;
   --primary-col-fil: invert(85%) sepia(19%) saturate(904%) hue-rotate(180deg)
     brightness(104%) contrast(105%);
 
@@ -170,7 +170,7 @@
 =            Shadow                          =
 =============================================*/
 
-  --shadows-md: 0px 4px 11px rgba(157, 157, 157, 0.21);
+  --shadows-md: 0px 4px 11px rgb(7, 7, 7);
 
   /*=====  End of Shadow  ======*/
 

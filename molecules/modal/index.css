@@ -1,0 +1,29 @@
+.tui__modal--box {
+  display: flex;
+  background-color: var(--body-bg-color);
+  flex-direction: column;
+  min-width: min-content;
+  padding: var(--padding-xs);
+  width: 90%;
+  gap: var(--margin-md);
+  box-shadow: var(--shadows-md);
+  z-index: 100;
+}
+.tui__modal--box header {
+  display: flex;
+  justify-content: space-between;
+}
+.tui__modal--box footer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: var(--margin-xs);
+  padding: var(--padding-xs);
+}
+
+@media screen and (min-width: 768px) {
+  .tui__modal--box {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+}
