@@ -1,1 +1,5 @@
 @import "./card/index.css";
+@import "./modal/index.css";
+@import "./navbar/index.css";
+@import "./rating/index.css";
+@import "./toast/index.css";
