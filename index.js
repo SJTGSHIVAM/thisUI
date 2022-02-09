@@ -18,6 +18,7 @@ const drawerData = [
   { innerText: "List", href: "/atoms/list" },
   { innerText: "Navbar", href: "/molecules/navbar" },
   { innerText: "Rating", href: "/molecules/rating" },
+  { innerText: "Slider", href: "/atoms/slider" },
   { innerText: "Toast", href: "/molecules/toast" },
   { innerText: "Modal", href: "/molecules/modal" },
   // { innerText: "Dummy", href: "/atoms/typography" },
