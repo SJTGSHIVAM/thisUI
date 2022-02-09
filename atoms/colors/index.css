@@ -1,6 +1,9 @@
 .tui__col--font {
   color: var(--body-text-color);
 }
+.tui__col--bg {
+  color: var(--body-bg-color);
+}
 .tui__col--svg {
   filter: var(--body-svg-color);
 }
@@ -27,4 +30,28 @@
 }
 .tui__bgcol--red-light {
   background-color: var(--red-light);
+}
+.tui__col--blue {
+  color: var(--blue);
+}
+.tui__col--green {
+  color: var(--green);
+}
+.tui__col--yellow {
+  color: var(--yellow);
+}
+.tui__col--red {
+  color: var(--red);
+}
+.tui__col--blue-light {
+  color: var(--blue-light);
+}
+.tui__col--green-light {
+  color: var(--green-light);
+}
+.tui__col--yellow-light {
+  color: var(--yellow-light);
+}
+.tui__col--red-light {
+  color: var(--red-light);
 }

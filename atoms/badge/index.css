@@ -26,3 +26,57 @@
   left: 0%;
   transform: translate(-50%, 50%);
 }
+
+.tui__badge--ribbon::before {
+  content: "";
+  height: 4ex;
+  width: 4ex;
+  position: absolute;
+  top: 3ex;
+  right: -1ex;
+  transform: rotate(45deg);
+}
+.tui__badge--ribbon::after {
+  position: absolute;
+  content: attr(data-label);
+  top: 1ex;
+  right: -1.7ex;
+  padding: 0.5rem;
+  border-top-left-radius: var(--btn-border-radius-xs);
+  border-bottom-left-radius: var(--btn-border-radius-xs);
+  width: max-content;
+  /* background: red; */
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 4px 4px 15px rgb(7, 7, 7);
+}
+
+.tui__ribbon--red::before,
+.tui__ribbon--red::after {
+  background-color: var(--col-red);
+}
+.tui__ribbon--green::before,
+.tui__ribbon--green::after {
+  background-color: var(--col-green);
+}
+.tui__ribbon--blue::before,
+.tui__ribbon--blue::after {
+  background-color: var(--col-blue);
+}
+
+.tui__ribbon--yellow::before,
+.tui__ribbon--yellow::after {
+  background-color: var(--col-yellow);
+}
+
+.tui__ribbon--bg-col::before,
+.tui__ribbon--bg-col::after {
+  color: var(--body-text-color);
+  background-color: var(--body-bg-color);
+}
+
+.tui__ribbon--text-col::before,
+.tui__ribbon--text-col::after {
+  background-color: var(--body-text-color);
+}

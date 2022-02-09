@@ -1,1 +1,73 @@
+.tui__card--top-btn-r {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+.tui__card--top-btn-l {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+.tui_card--shadow {
+  box-shadow: var(--shadows-md);
+}
+.tui__card--hor {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  align-content: center;
+  grid-template-rows: minmax(10%, max-content) max-content minmax(
+      10%,
+      max-content
+    );
+}
+.tui__card--hor * {
+  overflow: hidden;
+}
+.tui__card--hor-long * {
+  overflow: hidden;
+}
+.tui__card--hor .tui__card--img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
 
+.tui__card--hor-long {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 6fr 4fr;
+  align-content: center;
+  grid-template-rows: minmax(10%, max-content) max-content;
+}
+.tui__card--hor-long .tui__card--img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+.tui__card--hor-long .tui__card--footer {
+  grid-row: 1 / -1;
+  grid-column: 3;
+  align-self: center;
+}
+
+.tui__card--overlay {
+  display: grid;
+  /* grid-area: "a"; */
+  grid-template-rows: auto auto auto;
+}
+.tui__card--overlay .tui__card--img {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.tui__card--overlay .tui__card--header {
+  grid-area: 2 / 1 / 3 /2;
+}
+.tui__card--overlay .tui__card--body {
+  grid-area: 1 / 1 / 4 / 2;
+  background-color: var(--body-text-color);
+  color: var(--body-bg-color);
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.tui__card--overlay .tui__card--footer {
+  grid-area: 3 / 1 / 4 /2;
+}

@@ -1,11 +1,11 @@
 .tui__grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1px;
+  grid-gap: var(--margin-xs);
 }
 
 .tui__grid-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1px;
+  grid-gap: var(--margin-xs);
 }

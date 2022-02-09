@@ -17,7 +17,15 @@
   min-height: var(--g-height-xxl);
   min-width: var(--g-width-xxl);
   padding: var(--padding-md);
-  background-color: var(--dark-light);
+  /* background-color: var(--dark-light); */
+  box-shadow: var(--shadows-md);
+}
+.tuid__badge--display-big {
+  min-height: 10rem;
+  min-width: 10rem;
+  background-color: var(--body-bg-color);
+  padding: var(--padding-md);
+  box-shadow: var(--shadows-md);
 }
 .tuid__image--dispaly-container {
   height: var(--height-xxxl);
@@ -29,4 +37,8 @@
   background-color: var(--col-green-light);
 }
 
+.tuid__card--display {
+  max-width: 70%;
+  margin: auto;
+}
 /*=====  End of float-temp-display  ======*/
