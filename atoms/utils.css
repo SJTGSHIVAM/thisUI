@@ -5,6 +5,29 @@
   align-items: baseline;
 }
 
+.tui__overflow--hidden {
+  overflow: hidden;
+}
+
+.tui__flex--col-rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.tui__flex--col {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.tui__flex--row {
+  display: flex;
+  flex-direction: row;
+}
+.tui__child--strech-80 {
+  width: 80%;
+}
+.tui__child--strech {
+  width: 100%;
+}
 .tui__flex--center {
   display: flex;
   justify-content: center;
@@ -74,6 +97,9 @@
 /*=============================================
 =            padding            =
 =============================================*/
+.tui__pd-auto {
+  margin: auto;
+}
 .tui__pd-none {
   padding: var(--padding-none);
 }
@@ -306,6 +332,9 @@
 /*=============================================
 =            margin            =
 =============================================*/
+.tui__m-auto {
+  margin: auto;
+}
 .tui__m-none {
   margin: var(--margin-none);
 }
@@ -708,19 +737,19 @@
 =            border radius            =
 =============================================*/
 .tui__br-xl {
-  border-radius: (--g-border-radius-xl);
+  border-radius: var(--g-border-radius-xl);
 }
 .tui__br-lg {
-  border-radius: (--g-border-radius-lg);
+  border-radius: var(--g-border-radius-lg);
 }
 .tui__br-md {
-  border-radius: (--g-border-radius-md);
+  border-radius: var(--g-border-radius-md);
 }
 .tui__br-sm {
-  border-radius: (--g-border-radius-sm);
+  border-radius: var(--g-border-radius-sm);
 }
 .tui__br-xs {
-  border-radius: (--g-border-radius-xs);
+  border-radius: var(--g-border-radius-xs);
 }
 
 /*=====  End of border radius  ======*/

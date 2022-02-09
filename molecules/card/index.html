@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/index.css" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../../atoms/input/index.css" />
+    <link rel="stylesheet" href="../../atoms/button/index.css" />
+    <link rel="stylesheet" href="../../atoms/badge/index.css" />
+    <link rel="stylesheet" href="../../atoms/list/index.css" />
     <link rel="stylesheet" href="/utils/prism.css" />
+    <link rel="stylesheet" href="/atoms/grid/index.css" />
     <title>thisUI</title>
   </head>
   <body data-prismjs-copy-timeout="500">
@@ -15,10 +20,436 @@
     </header>
 
     <div
-      class="tuid__drawer tui__dis--none invis tui__scrollbar--invisible"
+      class="tuid__drawer tui__dis--none tui__scrollbar--invisible"
     ></div>
     <main class="tuid__main tui__scrollbar--invisible">
-      <h1 class="tui__h-1 tui__m-tb-lg">Comming Soon!</h1>
+      <h1 class="tui__h-1 tui__m-tb-xxxl">Card</h1>
+      <p class="tui__text-sm">
+        Cards are used to present co-related information in at a glance.
+      </p>
+      <ul>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Simple card</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+           Here is simple card :
+          </p>
+          <ul class="tui__bw-sm tui__pd-md ">
+            <li class="tuid__card--display">
+              
+              <div class="tui__card tui_card--shadow">   
+                <div class="tui__card--img">      
+                  <img
+                    class="tui__image--center-cover"
+                    src="/assets/jpgs/coremen.jpg"
+                    alt="image"
+                  />
+                </div>      
+                <div class="tui__card--header tui__pd-xs">
+                  <h4 class="tui__h-4" >Introduction to Algorithms, third edition</h4>
+                  <h5 class="tui__h-5">Thomas H. Cormen</h5>
+                </div>    
+                <div class="tui__card--body tui__pd-xs">
+                  <p class="tui__text-sm tui__b-3">
+                    ₹ 2000
+                  </p>
+                </div>
+                <div class="tui__card--footer ">
+                  <button class="tui__btn--link-br-none tui__child--strech"> Go To Cart </button>
+                </div>
+              </div>                           
+            </li>
+
+
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <div class="tui__card tui_card--shadow">   
+      <div class="tui__card--img">      
+        <img
+          class="tui__image--center-cover"
+          src="/assets/jpgs/coremen.jpg"
+          alt="image"
+        />
+      </div>      
+      <div class="tui__card--header tui__pd-xs">
+        <h4 class="tui__h-4" >Introduction to Algorithms, third edition</h4>
+        <h5 class="tui__h-5">Thomas H. Cormen</h5>
+      </div>    
+      <div class="tui__card--body tui__pd-xs">
+        <p class="tui__text-sm tui__b-3">
+          ₹ 2000
+        </p>
+      </div>
+      <div class="tui__card--footer ">
+        <button class="tui__btn--link-br-none tui__child--strech"> Go To Cart </button>
+      </div>
+    </div>            
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Floating button card</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+           Here is simple card with a floating button at the top 
+           (note this button can be used for like dismiss or any other
+            purpose as well. we can add upto two buttons one at left and one at right using "tui__card--top-btn-l" and "tui__card--top-btn-r"
+            respectively ):
+          </p>
+          <ul class="tui__bw-sm tui__pd-md ">
+            <li class="tuid__card--display">
+              
+              <div class="tui__card tui__pos--rel tui_card--shadow"> 
+                <button class="tui__btn--icon-br-xl tui__card--top-btn-r"><img class="tui__svg--icon-font" src="/assets/svgs/closeb.svg" alt="like"></button>  
+                <div class="tui__card--img ">      
+                  <img
+                    class="tui__image--center-cover"
+                    src="/assets/jpgs/coremen.jpg"
+                    alt="image"
+                  />
+                </div>      
+                <div class="tui__card--header tui__pd-xs">
+                  <h4 class="tui__h-4" class="tui__h-1">Introduction to Algorithms, third edition</h4>
+                  <h5 class="tui__h-5">Thomas H. Cormen</h5>
+                </div>    
+                <div class="tui__card--body tui__pd-xs">
+                  <p class="tui__text-sm tui__b-3">
+                    ₹ 2000
+                  </p>
+                </div>
+                <div class="tui__card--footer ">
+                  <button class="tui__btn--link-br-none tui__child--strech"> Go To Cart </button>
+                </div>
+              </div>                           
+            </li>
+
+
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <div class="tui__card tui__pos--rel tui_card--shadow"> 
+      <button class="tui__btn--icon-br-xl tui__card--top-btn-r"><img class="tui__svg--icon-font" src="/assets/svgs/closeb.svg" alt="like"></button>  
+      <div class="tui__card--img ">      
+        <img
+          class="tui__image--center-cover"
+          src="/assets/jpgs/coremen.jpg"
+          alt="image"
+        />
+      </div>      
+      <div class="tui__card--header tui__pd-xs">
+        <h4 class="tui__h-4" class="tui__h-1">Introduction to Algorithms, third edition</h4>
+        <h5 class="tui__h-5">Thomas H. Cormen</h5>
+      </div>    
+      <div class="tui__card--body tui__pd-xs">
+        <p class="tui__text-sm tui__b-3">
+          ₹ 2000
+        </p>
+      </div>
+      <div class="tui__card--footer ">
+        <button class="tui__btn--link-br-none tui__child--strech"> Go To Cart </button>
+      </div>
+    </div>  
+        
+              </code></pre>
+          </div>
+        </li>
+        <li>`
+          <h3 class="tui__h-3 tui__m-tb-lg">Text only cards</h3 class="tui__h-3">
+          <p class="tui__text-sm tui__m-b-sm">
+           Here is simple card with only text in it;
+          </p>
+          <ul class="tui__bw-sm tui__pd-md ">
+            <li class="tuid__card--display">
+              
+              <div class="tui__card tui__pos--rel tui_card--shadow"> 
+                <div class="tui__card--img ">
+                </div> 
+                <div class="tui__card--header tui__pd-xs">
+                  <h4 class="tui__h-4" class="tui__h-1">Title</h4>
+                  <h5 class="tui__h-5">Subtitle</h5>
+                </div>    
+                <div class="tui__card--body tui__pd-xs">
+                  <p class="tui__text-sm">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui impedit corporis quam asperiores id, distinctio cupiditate, excepturi possimus officiis nisi pariatur sequi adipisci velit rem? Non delectus iste suscipit. Maxime, voluptatum? Aut voluptate delectus facere quos perferendis odio laudantium! Illo odio incidunt cupiditate placeat esse officia corporis necessitatibus ipsum iusto.
+                  </p>
+                  </div>
+                <div class="tui__card--footer ">
+                </div>
+                
+              </div>                           
+            </li>
+
+
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+    <div class="tui__card tui__pos--rel tui_card--shadow"> 
+      <div class="tui__card--img ">
+      </div> 
+      <div class="tui__card--header tui__pd-xs">
+        <h4 class="tui__h-4" class="tui__h-1">Title</h4>
+        <h5 class="tui__h-5">Subtitle</h5>
+      </div>    
+      <div class="tui__card--body tui__pd-xs">
+        <p class="tui__text-sm">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui impedit corporis quam asperiores id, distinctio cupiditate, excepturi possimus officiis nisi pariatur sequi adipisci velit rem? Non delectus iste suscipit. Maxime, voluptatum? Aut voluptate delectus facere quos perferendis odio laudantium! Illo odio incidunt cupiditate placeat esse officia corporis necessitatibus ipsum iusto.
+        </p>
+        </div>
+      <div class="tui__card--footer ">
+      </div>    
+    </div>                              
+      
+              </code></pre>
+          </div>
+        </li>  
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Horizontal card</h3 class="tui__h-3">
+          <p class="tui__text-sm tui__m-b-sm">
+           Here is simple card in horizontal layout.
+          </p>
+          <ul class="tui__bw-sm tui__pd-md ">
+            <li class="tuid__card--display">
+              
+              <div class="tui__card  tui__card--hor tui_card--shadow tui__br-sm tui__overflow--hidden"> 
+                <div class="tui__card--img">      
+                  <img
+                    class="tui__image--center-cover"
+                    src="/assets/jpgs/coremen.jpg"
+                    alt="image"
+                  />
+                </div>      
+                <div class="tui__card--header tui__pd-xs">
+                  <h4 class="tui__h-4" class="tui__h-1">Introduction to Algorithms, third edition</h4>
+                  <h5 class="tui__h-5">Thomas H. Cormen</h5>
+                </div>    
+                <div class="tui__card--body tui__pd-xs">
+                  <p class="tui__text-sm tui__b-3">
+                    ₹ 2000
+                  </p>
+                </div>
+                <div class="tui__card--footer tui__pd-md">
+                  <button class="tui__btn--link-br-none tui__child--strech "> Go To Cart </button>
+                </div>
+              </div>                           
+            </li>
+
+
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <div class="tui__card  tui__card--hor tui_card--shadow tui__br-sm tui__overflow--hidden"> 
+      <div class="tui__card--img">      
+        <img
+          class="tui__image--center-cover"
+          src="/assets/jpgs/coremen.jpg"
+          alt="image"
+        />
+      </div>      
+      <div class="tui__card--header tui__pd-xs">
+        <h4 class="tui__h-4" class="tui__h-1">Introduction to Algorithms, third edition</h4>
+        <h5 class="tui__h-5">Thomas H. Cormen</h5>
+      </div>    
+      <div class="tui__card--body tui__pd-xs">
+        <p class="tui__text-sm tui__b-3">
+          ₹ 2000
+        </p>
+      </div>
+      <div class="tui__card--footer tui__pd-md">
+        <button class="tui__btn--link-br-none tui__child--strech "> Go To Cart </button>
+      </div>
+    </div>
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Horizontal Long card</h3 class="tui__h-3">
+          <p class="tui__text-sm tui__m-b-sm">
+           Here is simple card in horizontal long layout.
+          </p>
+          <ul class="tui__bw-sm tui__pd-md ">
+            <li class="tuid__card--display">
+              
+              <div class="tui__card  tui__card--hor-long tui_card--shadow"> 
+                <div class="tui__card--img">      
+                  <img
+                    class="tui__image--center-cover"
+                    src="/assets/jpgs/coremen.jpg"
+                    alt="image"
+                  />
+                </div>      
+                <div class="tui__card--header tui__pd-xs">
+                  <h4 class="tui__h-4">Introduction to Algorithms, third edition</h4>
+                  <h5 class="tui__h-5">Thomas H. Cormen</h5>
+                </div>    
+                <div class="tui__card--body tui__pd-xs">
+                  <p class="tui__text-sm tui__b-3">
+                    ₹ 2000
+                  </p>
+                </div>
+                <div class="tui__card--footer tui__pd-md">
+                  <button class="tui__btn--link-br-none tui__child--strech "> Go To Cart </button>
+                </div>
+              </div>                           
+            </li>
+
+
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <div class="tui__card  tui__card--hor-long tui_card--shadow"> 
+      <div class="tui__card--img">      
+        <img
+          class="tui__image--center-cover"
+          src="/assets/jpgs/coremen.jpg"
+          alt="image"
+        />
+      </div>      
+      <div class="tui__card--header tui__pd-xs">
+        <h4 class="tui__h-4">Introduction to Algorithms, third edition</h4>
+        <h5 class="tui__h-5">Thomas H. Cormen</h5>
+      </div>    
+      <div class="tui__card--body tui__pd-xs">
+        <p class="tui__text-sm tui__b-3">
+          ₹ 2000
+        </p>
+      </div>
+      <div class="tui__card--footer tui__pd-md">
+        <button class="tui__btn--link-br-none tui__child--strech "> Go To Cart </button>
+      </div>
+    </div>
+
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Overlay card</h3 class="tui__h-3">
+          <p class="tui__text-sm tui__m-b-sm">
+           Here is how we can use an overlay.
+          </p>
+          <ul class="tui__bw-sm tui__pd-md ">
+            <li class="tuid__card--display">
+              
+              <div class="tui__card tui__card--overlay tui_card--shadow"> 
+                <div class="tui__card--img">      
+                  <img
+                    class="tui__image--center-cover"
+                    src="/assets/jpgs/coremen.jpg"
+                    alt="image"
+                  />
+                </div>      
+                <div class="tui__card--header tui__pd-xs">
+                  <h4 class="tui__h-4">Introduction to Algorithms, third edition</h4>
+                  <h5 class="tui__h-5">Thomas H. Cormen</h5>
+                </div>    
+                <div class="tui__card--body tui__flex--center  tui__pd-xs">
+                  <p class="tui__text-sm tui__b-3">
+                    Not Available
+                  </p>
+                </div>
+                <div class="tui__card--footer">
+                  <button class="tui__btn--link-br-none tui__child--strech "> Go To Cart </button>
+                </div>
+              </div>                           
+            </li>
+
+
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <div class="tui__card tui__card--overlay tui_card--shadow"> 
+      <div class="tui__card--img">      
+        <img
+          class="tui__image--center-cover"
+          src="/assets/jpgs/coremen.jpg"
+          alt="image"
+        />
+      </div>      
+      <div class="tui__card--header tui__pd-xs">
+        <h4 class="tui__h-4">Introduction to Algorithms, third edition</h4>
+        <h5 class="tui__h-5">Thomas H. Cormen</h5>
+      </div>    
+      <div class="tui__card--body tui__flex--center  tui__pd-xs">
+        <p class="tui__text-sm tui__b-3">
+          Not Available
+        </p>
+      </div>
+      <div class="tui__card--footer">
+        <button class="tui__btn--link-br-none tui__child--strech "> Go To Cart </button>
+      </div>
+    </div>             
+
+              </code></pre>
+          </div>
+        </li>
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Card with badge</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+           We can use <a href="/atoms/badge" class="tui__col--blue " target="blank">Badge</a> widget to add a badge to any of the above cards
+          </p>
+          <ul class="tui__bw-sm tui__pd-md ">
+            <li class="tuid__card--display">
+              <div class="tui__badge--ribbon tui__pos--rel tui__ribbon--blue" data-label="thisUI">
+               <div class="tui__card tui_card--shadow tui__pos--rel">   
+                <div class="tui__card--img">      
+                  <img
+                    class="tui__image--center-cover"
+                    src="/assets/jpgs/coremen.jpg"
+                    alt="image"
+                  />
+                </div>      
+                <div class="tui__card--header tui__pd-xs">
+                  <h4 class="tui__h-4" >Introduction to Algorithms, third edition</h4>
+                  <h5 class="tui__h-5">Thomas H. Cormen</h5>
+                </div>    
+                <div class="tui__card--body tui__pd-xs">
+                  <p class="tui__text-sm tui__b-3">
+                    ₹ 2000
+                  </p>
+                </div>
+                <div class="tui__card--footer ">
+                  <button class="tui__btn--link-br-none tui__child--strech"> Go To Cart </button>
+                </div>
+               </div>     
+              </div>                      
+            </li>
+
+
+          </ul>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+    <div class="tui__badge--ribbon tui__pos--rel tui__ribbon--blue" data-label="thisUI">
+      <div class="tui__card tui_card--shadow tui__pos--rel">   
+        <div class="tui__card--img">      
+          <img
+            class="tui__image--center-cover"
+            src="/assets/jpgs/coremen.jpg"
+            alt="image"
+          />
+        </div>      
+        <div class="tui__card--header tui__pd-xs">
+          <h4 class="tui__h-4" >Introduction to Algorithms, third edition</h4>
+          <h5 class="tui__h-5">Thomas H. Cormen</h5>
+        </div>    
+        <div class="tui__card--body tui__pd-xs">
+          <p class="tui__text-sm tui__b-3">
+            ₹ 2000
+          </p>
+        </div>
+        <div class="tui__card--footer ">
+          <button class="tui__btn--link-br-none tui__child--strech"> Go To Cart </button>
+        </div>
+      </div>     
+      </div>    
+              </code></pre>
+          </div>
+        </li>
+              
+      </ul>
     </main>
 
     <footer class="tuid__foot"></footer>

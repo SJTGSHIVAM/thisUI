@@ -37,4 +37,8 @@
   background-color: var(--col-green-light);
 }
 
+.tuid__card--display {
+  max-width: 70%;
+  margin: auto;
+}
 /*=====  End of float-temp-display  ======*/
