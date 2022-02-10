@@ -104,6 +104,9 @@
   --g-height-lg: var(--tui-height-lg, var(--height-lg));
   --g-height-md: var(--tui-height-md, var(--height-md));
   --g-height-sm: var(--tui-height-sm, var(--height-sm));
+  --g-height-xs: var(--tui-height-xs, var(--height-xs));
+  --g-height-xxs: var(--tui-height-xxs, var(--height-xxs));
+  --g-height-xxxs: var(--tui-height-xxxs, var(--height-xxxs));
 
   --g-width-xxxl: var(--tui-width-xxxl, var(--width-xxxl));
   --g-width-xxl: var(--tui-width-xxl, var(--width-xxl));
@@ -111,6 +114,9 @@
   --g-width-lg: var(--tui-width-lg, var(--width-lg));
   --g-width-md: var(--tui-width-md, var(--width-md));
   --g-width-sm: var(--tui-width-sm, var(--width-sm));
+  --g-width-xs: var(--tui-width-xs, var(--width-xs));
+  --g-width-xxs: var(--tui-width-xxs, var(--width-xxs));
+  --g-width-xxxs: var(--tui-width-xxxs, var(--width-xxxs));
 
   /*=====  End of genric sizes  ======*/
 
