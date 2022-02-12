@@ -5,7 +5,6 @@
 =============================================*/
 
 .tuid__btn--float-display {
-  color: var(--btn-float-color);
   background-color: var(--btn-float-bg);
   border-radius: var(--btn-border-radius-xl);
   aspect-ratio: 1;
@@ -17,7 +16,7 @@
   min-height: var(--g-height-xxl);
   min-width: var(--g-width-xxl);
   padding: var(--padding-md);
-  /* background-color: var(--dark-light); */
+  /* background-color: var(--theme-dark-light); */
   box-shadow: var(--shadows-md);
 }
 .tuid__badge--display-big {

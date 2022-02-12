@@ -1,6 +1,7 @@
 .tui__badge-xs {
   padding: var(--padding-xs);
   border-radius: var(--badge-border-radius-lg);
+  color: var(--dark);
 }
 .tui__badge-pos-abs-tr {
   position: absolute;
@@ -42,14 +43,13 @@
   top: 1ex;
   right: -1.7ex;
   padding: 0.5rem;
+  color: var(--dark);
   border-top-left-radius: var(--btn-border-radius-xs);
   border-bottom-left-radius: var(--btn-border-radius-xs);
   width: max-content;
-  /* background: red; */
-  color: white;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  box-shadow: 4px 4px 15px rgb(7, 7, 7);
+  box-shadow: 4px 4px 15px var(--theme-dark);
 }
 
 .tui__ribbon--red::before,
@@ -79,4 +79,5 @@
 .tui__ribbon--text-col::before,
 .tui__ribbon--text-col::after {
   background-color: var(--body-text-color);
+  color: var(--body-bg-color);
 }

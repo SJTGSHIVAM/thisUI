@@ -2,6 +2,7 @@
   background-color: var(--alert-bg-error);
   min-width: 80%;
   max-width: 80%;
+  color: var(--dark);
   border: var(--alert-bd-error) solid var(--alert-border-width);
   padding-top: var(--alert-padding-top-bottom);
   padding-bottom: var(--alert-padding-top-bottom);
@@ -13,6 +14,7 @@
   background-color: var(--alert-bg-info);
   min-width: 80%;
   max-width: 80%;
+  color: var(--dark);
   border: var(--alert-bd-info) solid var(--alert-border-width);
   padding-top: var(--alert-padding-top-bottom);
   padding-bottom: var(--alert-padding-top-bottom);
@@ -23,6 +25,7 @@
   background-color: var(--alert-bg-success);
   min-width: 80%;
   max-width: 80%;
+  color: var(--dark);
   border: var(--alert-bd-success) solid var(--alert-border-width);
   padding-top: var(--alert-padding-top-bottom);
   padding-bottom: var(--alert-padding-top-bottom);
@@ -33,6 +36,7 @@
   background-color: var(--alert-bg-warning);
   min-width: 80%;
   max-width: 80%;
+  color: var(--dark);
   border: var(--alert-bd-warning) solid var(--alert-border-width);
   padding-top: var(--alert-padding-top-bottom);
   padding-bottom: var(--alert-padding-top-bottom);

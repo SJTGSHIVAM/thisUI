@@ -46,7 +46,7 @@
     brightness(96%) contrast(86%);
 
   --dark-light: #737680;
-  --dark-ligt-fil: invert(53%) sepia(1%) saturate(2752%) hue-rotate(189deg)
+  --dark-light-fil: invert(53%) sepia(1%) saturate(2752%) hue-rotate(189deg)
     brightness(85%) contrast(80%);
 
   /* svg variant */
@@ -170,7 +170,7 @@
 =            Shadow                          =
 =============================================*/
 
-  --shadows-md: 0px 4px 11px rgb(7, 7, 7);
+  --shadows-md: var(--theme-dark) 2.4px 2.4px 3.2px;
 
   /*=====  End of Shadow  ======*/
 

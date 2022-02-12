@@ -12,23 +12,66 @@
 =            Global text colors               =
 =============================================*/
 :root {
-  --body-text-color: var(--tui-body-text-color, var(--dark));
-  --body-text-light-color: var(--tui-body-text-color, var(--dark-light));
-  --body-svg-color: var(--tui-body-svg-color, var(--dark-fil));
-  --body-bg-color: var(--tui-body-bg-color, var(--white));
-  --body-bg-light-color: var(--tui-body-bg-color, var(--white-dark));
+  /*=============================================
+=            theme            =
+=============================================*/
+
+  --theme-primary-col: var(--tui-theme-primary-col, var(--primary-col));
+  --theme-secondary-col: var(--tui-theme-secondary-col, var(--secondary-col));
+  --theme-dark: var(--tui-theme-dark, var(--dark));
+  --theme-dark-light: var(--tui-theme-dark-light, var(--dark-light));
+  --theme-gray: var(--tui-theme-gray, var(--gray));
+  --theme-gray-light: var(--tui-theme-gray-light, var(--gray-light));
+  --theme-white: var(--tui-theme-white, var(--white));
+  --theme-white-dark: var(--tui-theme-white-dark, var(--white-dark));
+  --theme-green: var(--tui-theme-green, var(--green));
+  --theme-green-light: var(--tui-theme-green-light, var(--green-light));
+  --theme-red: var(--tui-theme-red, var(--red));
+  --theme-red-light: var(--tui-theme-red-light, var(--red-light));
+  --theme-yellow: var(--tui-theme-yellow, var(--yellow));
+  --theme-yellow-light: var(--tui-theme-yellow-light, var(--yellow-light));
+  --theme-blue: var(--tui-theme-blue, var(--blue));
+  --theme-blue-light: var(--tui-theme-blue-light, var(--blue-light));
+  --theme-primary-col-fil: var(
+    --tui-theme-primary-col-fil,
+    var(--primary-col-fil)
+  );
+  --theme-secondary-col-fil: var(
+    --tui-theme-secondary-col-fil,
+    var(--secondary-col-fil)
+  );
+  --theme-dark-fil: var(--tui-theme-dark-fil, var(--dark-fil));
+  --theme-dark-ligt-fil: var(--tui-theme-dark-ligt-fil, var(--dark-light-fil));
+  --theme-gray-fil: var(--tui-theme-gray-fil, var(--gray-fil));
+  --theme-gray-light-fil: var(
+    --tui-theme-gray-light-fil,
+    var(--gray-light-fil)
+  );
+  --theme-white-dark-fil: var(
+    --tui-theme-white-dark-fil,
+    var(--white-dark-fil)
+  );
+  --theme-white-fil: var(--tui-theme-white-fil, var(--white-fil));
+
+  /*=====  End of theme  ======*/
+
+  --body-text-color: var(--tui-body-text-color, var(--theme-dark));
+  --body-text-light-color: var(--tui-body-text-color, var(--theme-dark-light));
+  --body-svg-color: var(--tui-body-svg-color, var(--theme-dark-fil));
+  --body-bg-color: var(--tui-body-bg-color, var(--theme-white));
+  --body-bg-light-color: var(--tui-body-bg-color, var(--theme-white-dark));
 
   /*=============================================
   =            colors            =
   =============================================*/
-  --col-red: var(--tui__col-red, var(--red));
-  --col-red-light: var(--tui__col-red-light, var(--red-light));
-  --col-blue: var(--tui__col-blue, var(--blue));
-  --col-blue-light: var(--tui__col-blue-light, var(--blue-light));
-  --col-green: var(--tui__col-green, var(--green));
-  --col-green-light: var(--tui__col-green-light, var(--green-light));
-  --col-yellow: var(--tui__col-yellow, var(--yellow));
-  --col-yellow-light: var(--tui__col-yellow-light, var(--yellow-light));
+  --col-red: var(--tui-col-red, var(--theme-red));
+  --col-red-light: var(--tui-col-red-light, var(--theme-red-light));
+  --col-blue: var(--tui-col-blue, var(--theme-blue));
+  --col-blue-light: var(--tui-col-blue-light, var(--theme-blue-light));
+  --col-green: var(--tui-col-green, var(--theme-green));
+  --col-green-light: var(--tui-col-green-light, var(--theme-green-light));
+  --col-yellow: var(--tui-col-yellow, var(--theme-yellow));
+  --col-yellow-light: var(--tui-col-yellow-light, var(--theme-yellow-light));
 
   /*=====  End of colors  ======*/
 
@@ -36,76 +79,108 @@
   =            nabar            =
   =============================================*/
 
-  --nav-icon-bg: var(--tui-nav-icon-bg, var(--white-dark));
+  --nav-icon-bg: var(--tui-nav-icon-bg, var(--theme-white-dark));
 
   /*=====  End of nabar  ======*/
 
   /*=============================================
 =                 Buttons                     =
 =============================================*/
-  --btn-primary-color: var(--tui-btn-primary-color, var(--white));
-  --btn-primary-bg: var(--tui-btn-primary-bg, var(--primary-col));
+  --btn-primary-color: var(--tui-btn-primary-color, var(--theme-white));
+  --btn-primary-bg: var(--tui-btn-primary-bg, var(--theme-primary-col));
   --btn-primary-bg-hover: var(
     --tui-btn-primary-bg-hover,
-    var(--primary-col-light)
+    var(--theme-primary-col-light)
   );
 
-  --btn-link-color: var(--tui-btn-link-color, var(--white));
-  --btn-link-bg: var(--tui-btn-link-bg, var(--blue));
-  --btn-link-bg-hover: var(--tui-btn-link-bg-hover, var(--blue-light));
+  --btn-link-color: var(--tui-btn-link-color, var(--theme-white));
+  --btn-link-bg: var(--tui-btn-link-bg, var(--theme-blue));
+  --btn-link-bg-hover: var(--tui-btn-link-bg-hover, var(--theme-blue-light));
 
   --btn-icon-color: var(--tui-btn-icon-color, inherit);
-  --btn-icon-bg: var(--tui-btn-icon-bg, var(--white-dark));
-  --btn-icon-bg-hover: var(--tui-btn-icon-bg-hover, var(--blue-light));
+  --btn-icon-bg: var(--tui-btn-icon-bg, var(--theme-white-dark));
+  --btn-icon-bg-hover: var(--tui-btn-icon-bg-hover, var(--theme-blue-light));
 
   --btn-float-color: var(--tui-btn-float-color, var(inherit));
-  --btn-float-bg: var(--tui-btn-float-bg, var(--red-light));
-  --btn-float-bg-hover: var(--tui-btn-float-bg-hover, var(--red));
+  --btn-float-bg: var(--tui-btn-float-bg, var(--theme-red-light));
+  --btn-float-bg-hover: var(--tui-btn-float-bg-hover, var(--theme-red));
 
   /*=============================================
 =                 Forms                       =
 =============================================*/
-  --form-border-color: var(--tui-form-border-color, var(--white-dark));
-  --form-bg-color: var(--tui-form-bg-color, var(--white));
+  --form-border-color: var(--tui-form-border-color, var(--theme-white-dark));
+  --form-bg-color: var(--tui-form-bg-color, var(--theme-white));
   --form-bg-option-selected: var(
     --tui-form-bg-option-selected,
-    var(--primary-col)
+    var(--theme-primary-col)
   );
   --form-color-option-selected: var(
     --tui-form-color-option-selected,
-    var(--white)
+    var(--theme-white)
   );
-  --form-bg-color-hover: var(--tui-form-bg-color-hover, var(--white-dark));
-  --form-color: var(--tui-form-color, var(--dark));
-  --form-bg: var(--tui-form-bg, var(--white));
-  --form-error-color: var(--tui-form-error-color, var(--red));
-  --form-error-border: var(--tui-form-error-border, var(--red));
+  --form-bg-color-hover: var(
+    --tui-form-bg-color-hover,
+    var(--theme-white-dark)
+  );
+  --form-color: var(--tui-form-color, var(--theme-dark));
+  --form-bg: var(--tui-form-bg, var(--theme-white));
+  --form-error-color: var(--tui-form-error-color, var(--theme-red));
+  --form-error-border: var(--tui-form-error-border, var(--theme-red));
   --form-border-focus-color: var(
     --tui-form-border-focus-color,
-    var(--primary-col)
+    var(--theme-primary-col)
   );
   /*=============================================
 =                 Small Text                       =
 =============================================*/
-  --utility-small-text: var(--tui-utility-small-text, var(--dark-light));
+  --utility-small-text: var(--tui-utility-small-text, var(--theme-dark-light));
 
   /*=============================================
 =                 nav                       =
 =============================================*/
-  --nav-bg-color: var(--tui-nav-bg-color, var(--primary-col));
+  --nav-bg-color: var(--tui-nav-bg-color, var(--theme-primary-col));
 
   /*=============================================
 =            alert            =
 =============================================*/
 
-  --alert-bg-success: var(--tui-alert-bg-success, var(--green-light));
-  --alert-bd-success: var(--tui-alert-bd-success, var(--green));
-  --alert-bg-info: var(--tui-alert-bg-info, var(--blue-light));
-  --alert-bd-info: var(--tui-alert-bd-info, var(--blue));
-  --alert-bg-error: var(--tui-alert-bg-error, var(--red-light));
-  --alert-bd-error: var(--tui-alert-bd-error, var(--red));
-  --alert-bg-warning: var(--tui-alert-bg-warning, var(--yellow-light));
-  --alert-bd-warning: var(--tui-alert-bd-warning, var(--yellow));
+  --alert-bg-success: var(--tui-alert-bg-success, var(--theme-green-light));
+  --alert-bd-success: var(--tui-alert-bd-success, var(--theme-green));
+  --alert-bg-info: var(--tui-alert-bg-info, var(--theme-blue-light));
+  --alert-bd-info: var(--tui-alert-bd-info, var(--theme-blue));
+  --alert-bg-error: var(--tui-alert-bg-error, var(--theme-red-light));
+  --alert-bd-error: var(--tui-alert-bd-error, var(--theme-red));
+  --alert-bg-warning: var(--tui-alert-bg-warning, var(--theme-yellow-light));
+  --alert-bd-warning: var(--tui-alert-bd-warning, var(--theme-yellow));
 
   /*=====  End of alert  ======*/
+}
+.tui__dark--theme {
+  --tui-theme-primary-col: var(--primary-col);
+  --tui-theme-secondary-col: var(--secondary-col);
+
+  --tui-theme-dark: #0f0;
+  --tui-theme-dark-light: var(--white-dark);
+  --tui-theme-gray: var(--gray-light);
+  --tui-theme-gray-light: var(--gray);
+  --tui-theme-white: var(--dark);
+  --tui-theme-white-dark: var(--dark-light);
+
+  --tui-theme-green: var(--green);
+  --tui-theme-green-light: var(--green-light);
+  --tui-theme-red: var(--red);
+  --tui-theme-red-light: var(--red-light);
+  --tui-theme-yellow: var(--yellow);
+  --tui-theme-yellow-light: var(--yellow-light);
+  --tui-theme-blue: var(--blue);
+  --tui-theme-blue-light: var(--blue-light);
+
+  --tui-theme-primary-col-fil: var(--primary-col-fil);
+  --tui-theme-secondary-col-fil: var(--secondary-col-fil);
+  --tui-theme-dark-fil: var(--white-fil);
+  --tui-theme-dark-ligt-fil: var(--white-light-fil);
+  --tui-theme-gray-fil: var(--gray-light-fil);
+  --tui-theme-gray-light-fil: var(--gray-fil);
+  --tui-theme-white-dark-fil: var(--dark-dark-fil);
+  --tui-theme-white-fil: var(--dark-fil);
 }

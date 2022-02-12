@@ -1,6 +1,6 @@
 .tui__slider--pri-col {
-  --col-slider-shadow: var(--secondary-col);
-  --col-slider: var(--primary-col);
+  --col-slider-shadow: var(--theme-secondary-col);
+  --col-slider: var(--theme-primary-col);
   --col-slider-thumb: var(--body-text-light-color);
 }
 .tui__slider--red-col {

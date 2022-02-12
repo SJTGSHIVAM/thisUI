@@ -1,6 +1,41 @@
 import { createNode } from "./utils/utils.js";
+import { darkTheme } from "./atoms/theme/index.js";
+import { setTheme } from "./atoms/theme/index.js";
 const navTop = document.querySelector(".tuid__nav--top");
 const drawer = document.querySelector(".tuid__drawer");
+const themeSwitch = document.querySelector(".tui_theme--Switch");
+let theme = localStorage.getItem("tuid__theme");
+console.log(theme);
+let globalThemeLight;
+if (theme == "light") {
+  globalThemeLight = true;
+  setTheme();
+} else if (theme == "dark") {
+  globalThemeLight = false;
+  setTheme({ theme: darkTheme });
+} else {
+  globalThemeLight = true;
+  setTheme();
+  localStorage.setItem("tuid__theme", "light");
+}
+const themeSwitcher = () => {
+  if (globalThemeLight) {
+    setTheme({ theme: darkTheme });
+    localStorage.setItem("tuid__theme", "dark");
+    document
+      .querySelector(".tui_theme--Switch")
+      .setAttribute("src", "/assets/svgs/sun.svg");
+  } else {
+    setTheme();
+    localStorage.setItem("tuid__theme", "light");
+    document
+      .querySelector(".tui_theme--Switch")
+      .setAttribute("src", "/assets/svgs/moon.svg");
+  }
+  globalThemeLight = !globalThemeLight;
+  console.log(globalThemeLight);
+};
+
 // console.log(window.location.pathname);
 // util function to create dom nodes
 const drawerData = [
@@ -57,6 +92,16 @@ function createnavBar(navTop) {
       createNode({
         element: "li",
         children: [
+          createNode({
+            element: "img",
+            src: globalThemeLight
+              ? "/assets/svgs/moon.svg"
+              : "/assets/svgs/sun.svg",
+            className:
+              "tuid__nav--menu tui_theme--Switch tui__col--svg tui__m-in-sm",
+            onClick: themeSwitcher,
+          }),
+          ,
           window.location.pathname == "/" ||
           window.location.pathname == "/index.html"
             ? createNode({
