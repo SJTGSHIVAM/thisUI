@@ -13,10 +13,14 @@
   justify-content: space-between;
   align-items: baseline;
   background-color: var(--nav-bg-color);
-  color: var(--secondary-col);
+  color: var(--theme-secondary-col);
   padding: var(--nav-padding-spacing-md);
   background: rgb(197, 236, 255);
-  background: linear-gradient(90deg, var(--nav-bg-color) 0%, var(--white) 89%);
+  background: linear-gradient(
+    90deg,
+    var(--nav-bg-color) 0%,
+    var(--theme-white) 89%
+  );
 }
 .tuid__nav--menu {
   height: var(--h-2-font-size);
@@ -24,7 +28,7 @@
 }
 .tuid__drawer {
   background-color: var(--body-bg-color);
-  border-right: var(--g-border-width-xs) solid var(--primary-col);
+  border-right: var(--g-border-width-xs) solid var(--theme-primary-col);
   grid-row: lside;
   grid-column-start: lside;
   grid-column-end: lside-con;
@@ -45,7 +49,7 @@
 }
 .tuid__foot {
   grid-area: foot;
-  background-color: var(--secondary-col);
+  background-color: var(--theme-secondary-col);
 }
 
 .tuid__drawer--li {

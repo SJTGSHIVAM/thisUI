@@ -3,6 +3,10 @@
   outline: var(--g-border-width-xs) solid var(--body-text-color);
 }
 
+.tui__input--box > label {
+  display: block;
+}
+
 .tui__input--val:invalid {
   background-color: var(--col-red-light);
   outline: var(--g-border-width-xs) solid var(--col-red);

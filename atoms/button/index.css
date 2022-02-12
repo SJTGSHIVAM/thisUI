@@ -163,7 +163,6 @@
 }
 
 .tui__btn--float-left {
-  color: var(--btn-float-color);
   background-color: var(--btn-float-bg);
   position: fixed;
   bottom: 10%;
@@ -174,7 +173,6 @@
 }
 
 .tui__btn--float-right {
-  color: var(--btn-float-color);
   background-color: var(--btn-float-bg);
   position: fixed;
   bottom: 10%;

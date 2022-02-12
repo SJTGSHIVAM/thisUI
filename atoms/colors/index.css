@@ -1,3 +1,22 @@
+.tui__col--none {
+  color: rgba(0, 0, 0, 0);
+}
+.tui__col--black {
+  color: var(--dark);
+}
+.tui__col--white {
+  color: var(--white);
+}
+.tui__bgcol--black {
+  background-color: var(--dark);
+}
+.tui__bgcol--white {
+  background-color: var(--white);
+}
+
+.tui__bgcol--none {
+  background-color: rgba(0, 0, 0, 0);
+}
 .tui__col--font {
   color: var(--body-text-color);
 }
@@ -8,50 +27,50 @@
   filter: var(--body-svg-color);
 }
 .tui__bgcol--blue {
-  background-color: var(--blue);
+  background-color: var(--col-blue);
 }
 .tui__bgcol--green {
-  background-color: var(--green);
+  background-color: var(--col-green);
 }
 .tui__bgcol--yellow {
-  background-color: var(--yellow);
+  background-color: var(--col-yellow);
 }
 .tui__bgcol--red {
-  background-color: var(--red);
+  background-color: var(--col-red);
 }
 .tui__bgcol--blue-light {
-  background-color: var(--blue-light);
+  background-color: var(--col-blue-light);
 }
 .tui__bgcol--green-light {
-  background-color: var(--green-light);
+  background-color: var(--col-green-light);
 }
 .tui__bgcol--yellow-light {
-  background-color: var(--yellow-light);
+  background-color: var(--col-yellow-light);
 }
 .tui__bgcol--red-light {
-  background-color: var(--red-light);
+  background-color: var(--col-red-light);
 }
 .tui__col--blue {
-  color: var(--blue);
+  color: var(--col-blue);
 }
 .tui__col--green {
-  color: var(--green);
+  color: var(--col-green);
 }
 .tui__col--yellow {
-  color: var(--yellow);
+  color: var(--col-yellow);
 }
 .tui__col--red {
-  color: var(--red);
+  color: var(--col-red);
 }
 .tui__col--blue-light {
-  color: var(--blue-light);
+  color: var(--col-blue-light);
 }
 .tui__col--green-light {
-  color: var(--green-light);
+  color: var(--col-green-light);
 }
 .tui__col--yellow-light {
-  color: var(--yellow-light);
+  color: var(--col-yellow-light);
 }
 .tui__col--red-light {
-  color: var(--red-light);
+  color: var(--col-red-light);
 }
