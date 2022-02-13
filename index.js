@@ -133,7 +133,7 @@ function createDrrawer(drawer, drawerData) {
     children: [
       createNode({
         element: "h2",
-        className: "tui__h-2",
+        className: "tui__h-2 tui__m-md",
         innerText: "Places to Go!",
       }),
     ],

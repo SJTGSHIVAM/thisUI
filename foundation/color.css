@@ -155,32 +155,3 @@
 
   /*=====  End of alert  ======*/
 }
-.tui__dark--theme {
-  --tui-theme-primary-col: var(--primary-col);
-  --tui-theme-secondary-col: var(--secondary-col);
-
-  --tui-theme-dark: #0f0;
-  --tui-theme-dark-light: var(--white-dark);
-  --tui-theme-gray: var(--gray-light);
-  --tui-theme-gray-light: var(--gray);
-  --tui-theme-white: var(--dark);
-  --tui-theme-white-dark: var(--dark-light);
-
-  --tui-theme-green: var(--green);
-  --tui-theme-green-light: var(--green-light);
-  --tui-theme-red: var(--red);
-  --tui-theme-red-light: var(--red-light);
-  --tui-theme-yellow: var(--yellow);
-  --tui-theme-yellow-light: var(--yellow-light);
-  --tui-theme-blue: var(--blue);
-  --tui-theme-blue-light: var(--blue-light);
-
-  --tui-theme-primary-col-fil: var(--primary-col-fil);
-  --tui-theme-secondary-col-fil: var(--secondary-col-fil);
-  --tui-theme-dark-fil: var(--white-fil);
-  --tui-theme-dark-ligt-fil: var(--white-light-fil);
-  --tui-theme-gray-fil: var(--gray-light-fil);
-  --tui-theme-gray-light-fil: var(--gray-fil);
-  --tui-theme-white-dark-fil: var(--dark-dark-fil);
-  --tui-theme-white-fil: var(--dark-fil);
-}

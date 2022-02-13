@@ -10,6 +10,18 @@
 .tui__width--max-content {
   width: max-content;
 }
+.tui__width--min-content {
+  width: min-content;
+}
+.tui__width--100 {
+  width: 100%;
+}
+.tui__width--50 {
+  width: 50%;
+}
+.tui__width--80 {
+  width: 80%;
+}
 .tui__flex--row-pack {
   display: flex;
   max-width: max-content;

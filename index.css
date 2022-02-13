@@ -55,6 +55,9 @@
 .tuid__drawer--li {
   padding: var(--nav-padding-spacing-md);
 }
+.tuid__drawer--li:hover {
+  transform: scale(1.5);
+}
 /*=============================================
 =            usage layout            =
 =============================================*/
