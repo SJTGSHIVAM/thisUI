@@ -60,6 +60,8 @@ table {
 body {
   color: var(--body-text-color);
   background-color: var(--body-bg-color);
+  max-width: 100vw;
+  min-height: 100vh;
 }
 button:active {
   transform: scale(0.95);
