@@ -42,6 +42,14 @@
   max-width: max-content;
   align-items: baseline;
 }
+.tui__flex--row-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.tui__flex--row-space-around {
+  display: flex;
+  justify-content: space-around;
+}
 .tui__flex--col-rev {
   display: flex;
   flex-direction: column-reverse;
@@ -60,7 +68,7 @@
   justify-content: center;
   align-items: center;
 }
-.tui__flex--col-justify-center {
+.tui__flex--col-align-center {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -141,7 +141,7 @@ function createDrrawer(drawer, drawerData) {
   createNode({
     element: "ul",
     parent: drawer,
-    className: "tui__drawer--list tui__flex--col-justify-center",
+    className: "tui__drawer--list tui__flex--col-align-center",
     children: [
       ...drawerData.map((li) =>
         createNode({
