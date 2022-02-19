@@ -14,6 +14,7 @@
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
+  word-wrap: break-word;
 }
 
 /* HTML5 display-role reset for older browsers */
