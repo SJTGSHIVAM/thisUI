@@ -13,6 +13,18 @@
 .tui__bgcol--white {
   background-color: var(--white);
 }
+.tui__bgcol--th-dark {
+  background-color: var(--theme-dark);
+}
+.tui__bgcol--th-white {
+  background-color: var(--theme-white);
+}
+.tui__bgcol--th-dark-light {
+  background-color: var(--theme-dark-light);
+}
+.tui__bgcol--th-white-dark {
+  background-color: var(--theme-white-dark);
+}
 
 .tui__bgcol--none {
   background-color: rgba(0, 0, 0, 0);
