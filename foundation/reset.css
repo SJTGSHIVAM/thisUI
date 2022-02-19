@@ -56,7 +56,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+sub {
+  font-size: 1ex;
+  vertical-align: sub;
+}
+sup {
+  font-size: 1ex;
+  vertical-align: super;
+}
 body {
   color: var(--body-text-color);
   background-color: var(--body-bg-color);
