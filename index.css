@@ -49,7 +49,14 @@
 }
 .tuid__foot {
   grid-area: foot;
-  background-color: var(--theme-secondary-col);
+  background-color: transparent;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+.tuid__foot > ul {
+  display: inline-flex;
+  gap: 3rem;
+  margin: 1rem auto;
 }
 
 .tuid__drawer--li {
