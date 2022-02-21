@@ -31,6 +31,16 @@
 .tui__height--100 {
   height: 100%;
 }
+.tui__hw--100 {
+  height: 100%;
+  width: 100%;
+}
+.tui__grid {
+  display: grid;
+}
+.tui__grid--end {
+  align-self: stretch;
+}
 .tui__height--50 {
   height: 50%;
 }
