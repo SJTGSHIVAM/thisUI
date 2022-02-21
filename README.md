@@ -3,12 +3,12 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Live link](#link)
+- [Live link](#live-link)
 - [Features](#features)
 - [Feedback](#feedback)
 - [Build Process](#build-process)
 - [Components](#components)
-- [Rolling Components](#rolling)
+- [Rolling Components](#rolling-components)
 
 
 ## Introduction
