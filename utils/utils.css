@@ -32,7 +32,7 @@
 }
 .tuid__grid--dispaly {
   height: var(--g-height-xxxl);
-  width: var(--g-width-xxxl);
+  width: var(--g-width-xl);
   background-color: var(--col-green-light);
 }
 
