@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/index.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="../../atoms/input/index.css" />
     <link rel="stylesheet" href="../../atoms/button/index.css" />
     <link rel="stylesheet" href="../../atoms/badge/index.css" />
@@ -38,7 +38,7 @@
                 <h1 class="tui__nav--logo tui__h-3">MY WEBSITE</h1>
                 <div class="tui__nav--mix">
                   <span class="tui__input--box">
-                    <label for="tui__nav--search" class="tui__dis--none"
+                    <label for="tui__nav--search" class="tui__label--search"
                       >Search</label
                     >
                     <input
@@ -129,6 +129,159 @@
               </code></pre>
           </div>
         </li>
+
+        <li>
+          <h3 class="tui__h-3 tui__m-tb-lg">Responsive Navbar</h3>
+          <p class="tui__text-sm tui__m-b-sm">
+            Responsive Navbar collaose down to hamburger menu when short on
+            space:
+          </p>
+          <ul class="tui__bw-sm tui__pd-md tuid__li--component">
+            <li>
+              <nav class="tui__nav--box tui__nav--responsive tui__pd-in-xs">
+                <h1 class="tui__nav--logo tui__h-3">MY WEBSITE</h1>
+                <div class="tui__nav--mix">
+                  <span class="tui__input--box">
+                    <label for="tui__nav--search" class="tui__label--search"
+                      >Search</label
+                    >
+                    <input
+                      type="text"
+                      placeholder="Search"
+                      class="tui__input--val"
+                      id="tui__nav--search"
+                    />
+                  </span>
+                  <span>
+                    <img
+                      class="tui__nav--menu tui__col--svg"
+                      src="/assets/svgs/menu.svg"
+                    />
+                  </span>
+                </div>
+                <ul class="tui__nav--list">
+                  <li>
+                    <button class="tui__btn--link-br-none tui__m-in-md">
+                      <a href="#">Link</a>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="tui__btn--icon-br-none">
+                      <span class="btn-svg-f-size">
+                        <img
+                          class="tui__svg--icon"
+                          src="/assets/svgs/hollowheart.svg"
+                        />
+                      </span>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="tui__btn--icon-br-none">
+                      <span class="btn-svg-f-size">
+                        <img
+                          class="tui__svg--icon"
+                          src="/assets/svgs/cart.svg"
+                        />
+                      </span>
+                      Cart
+                    </button>
+                  </li>
+                </ul>
+              </nav>
+            </li>
+            <ul class="tui__nav--list-col">
+              <li class="tui__pd-xxl">
+                <a href="#">Link</a>
+              </li>
+              <li class="tui__pd-xxl">
+                <a href="#">Link 2</a>
+              </li>
+              <li class="tui__pd-xxl">
+                <a href="#">Link 3</a>
+              </li>
+            </ul>
+          </ul>
+          <p class="tui__text-sm tui__m-sm">
+            This js file needs to be imported in order to run the hamburger
+            menu.
+          </p>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+   <script src="./index.js" type="module"></script>
+              </code></pre>
+          </div>
+          <div class="preformat tui__m-tb-lg">
+            <pre id><code class="language-markup">
+
+        <nav class="tui__nav--box tui__nav--responsive tui__pd-in-xs">
+          <h1 class="tui__nav--logo tui__h-3">MY WEBSITE</h1>
+          <div class="tui__nav--mix">
+            <span class="tui__input--box">
+              <label for="tui__nav--search" class="tui__label--search"
+                >Search</label
+              >
+              <input
+                type="text"
+                placeholder="Search"
+                class="tui__input--val"
+                id="tui__nav--search"
+              />
+            </span>
+            <span>
+              <img
+                class="tui__nav--menu tui__col--svg"
+                src="/assets/svgs/menu.svg"
+              />
+            </span>
+          </div>
+          <ul class="tui__nav--list">
+            <li>
+              <button class="tui__btn--link-br-none tui__m-in-md">
+                <a href="#">Link</a>
+              </button>
+            </li>
+            <li>
+              <button class="tui__btn--icon-br-none">
+                <span class="btn-svg-f-size">
+                  <img
+                    class="tui__svg--icon"
+                    src="/assets/svgs/hollowheart.svg"
+                  />
+                </span>
+              </button>
+            </li>
+            <li>
+              <button class="tui__btn--icon-br-none">
+                <span class="btn-svg-f-size">
+                  <img
+                    class="tui__svg--icon"
+                    src="/assets/svgs/cart.svg"
+                  />
+                </span>
+                Cart
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+
+      /* this is the code for drawer add it where you want to add drawer */
+
+      
+      <ul class="tui__nav--list-col">
+        <li class="tui__pd-xxl">
+          <a href="#">Link</a>
+        </li>
+        <li class="tui__pd-xxl">
+          <a href="#">Link 2</a>
+        </li>
+        <li class="tui__pd-xxl">
+          <a href="#">Link 3</a>
+        </li>
+      </ul>
+              </code></pre>
+          </div>
+        </li>
       </ul>
     </main>
 
@@ -136,6 +289,7 @@
 
     <script src="/utils/preFormatter.js" type="module"></script>
     <script src="/index.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
     <script src="/utils/prism.js" type="module"></script>
   </body>
 </html>
