@@ -872,7 +872,7 @@
 =            thumb            =
 =============================================*/
 .tui__slider::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
+  -webkit-appearance: none;
   appearance: none;
   width: var(--g-height-xxxs); /* Set a specific slider handle width */
   height: var(--height-slider); /* Slider handle height */

@@ -32,12 +32,40 @@
 }
 .tuid__grid--dispaly {
   height: var(--g-height-xxxl);
-  width: var(--g-width-xxxl);
+  width: var(--g-width-xl);
   background-color: var(--col-green-light);
 }
 
 .tuid__card--display {
   max-width: 70%;
   margin: auto;
+}
+.tuid__modal--box {
+  display: flex;
+  background-color: var(--body-bg-color);
+  flex-direction: column;
+  min-width: min-content;
+  padding: var(--padding-xs);
+  width: 90%;
+  gap: var(--margin-md);
+  box-shadow: var(--shadows-md);
+}
+.tuid__modal--box header {
+  display: flex;
+  justify-content: space-between;
+}
+.tuid__modal--box footer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: var(--margin-xs);
+  padding: var(--padding-xs);
+}
+
+@media screen and (min-width: 768px) {
+  .tuid__modal--box {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
 }
 /*=====  End of float-temp-display  ======*/
