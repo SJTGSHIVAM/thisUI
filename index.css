@@ -49,7 +49,14 @@
 }
 .tuid__foot {
   grid-area: foot;
-  background-color: var(--theme-secondary-col);
+  background-color: transparent;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+.tuid__foot > ul {
+  display: inline-flex;
+  gap: 3rem;
+  margin: 1rem auto;
 }
 
 .tuid__drawer--li {
@@ -73,7 +80,7 @@ body {
   grid-template-rows: max-content 1fr minmax(60px, max-content);
   grid-template-areas:
     "nav nav nav nav nav nav nav nav nav nav nav nav"
-    "lside lside lside-con lside-con lside-con lside-con con con con rside-con rside rside"
+    "lside lside-con lside-con lside-con lside-con lside-con con con con rside-con rside-con rside"
     "foot foot foot foot foot foot foot foot foot foot foot foot";
 }
 @media screen and (min-width: 768px) {

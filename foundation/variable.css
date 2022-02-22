@@ -170,7 +170,7 @@
 =            Shadow                          =
 =============================================*/
 
-  --shadows-md: var(--theme-dark) 2.4px 2.4px 3.2px;
+  --shadows-md: var(--theme-dark) 0.15rem 0.15rem 0.2rem;
 
   /*=====  End of Shadow  ======*/
 
