@@ -26,6 +26,8 @@ thisUI aims to provide commonly used UI components out of the box. Written in pu
 
 A few features you get with thisUI:
 
+- Responsive design
+- Dark/Light theme
 - Light weight
 - Written in CSS
 - Easy to adapt
