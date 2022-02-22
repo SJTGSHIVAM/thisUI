@@ -7,7 +7,7 @@ menuBtn.addEventListener("click", () => {
 });
 
 window.onresize = () => {
-  menuList.style.display = "none";
+  if (window.innerWidth >= 1024) menuList.style.display = "none";
 };
 
-window.onload = window.onresize;
+window.onload = () => (menuList.style.display = "none");

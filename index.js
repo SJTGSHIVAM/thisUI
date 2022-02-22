@@ -5,7 +5,6 @@ const navTop = document.querySelector(".tuid__nav--top");
 const drawer = document.querySelector(".tuid__drawer");
 const themeSwitch = document.querySelector(".tui_theme--Switch");
 let theme = localStorage.getItem("tuid__theme");
-console.log(theme);
 let globalThemeLight;
 if (theme == "light") {
   globalThemeLight = true;
@@ -33,7 +32,6 @@ const themeSwitcher = () => {
       .setAttribute("src", "/assets/svgs/moon.svg");
   }
   globalThemeLight = !globalThemeLight;
-  console.log(globalThemeLight);
 };
 
 // console.log(window.location.pathname);
